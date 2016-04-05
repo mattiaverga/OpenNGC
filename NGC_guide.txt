@@ -1,0 +1,31 @@
+- Cat: Catalog name
+    NGC: New General Catalogue
+    IC: Index Catalogue
+    
+- N: Item number in the catalog
+
+- Type: Object type
+    We use object types listed in NASA/IPAC Extragalactic Database
+    See legend at http://ned.ipac.caltech.edu/help/faq5.html#5k
+    
+- RA: Right Ascension in J2000 Epoch (HH:MM:SS.SS)
+
+- Dec: Declination in J2000 Epoch (+/-DD:MM:SS.SS)
+
+- Smax: Major axis, expressed in arcmin
+
+- Smin: Minor axis, expressed in arcmin
+
+- PosAng: Major axis position angle (North Eastwards)
+
+- Mag: Apparent total B-magnitude
+
+- SurfBr: Mean surface brigthness within 25 mag isophot (B-band), expressed in mag/arcsec2
+
+- Hubble: Morphological type (for galaxies)
+
+- M: cross reference Messier number
+
+- NGC: other NGC names (used for duplicated objects)
+
+- Names: cross reference with other catalogs
