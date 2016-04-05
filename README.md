@@ -1,9 +1,13 @@
-** OpenNGC v0.1 **
-mattia dot verga at tiscali dot it
+# OpenNGC
+A license free NGC (New General Catalogue) database
+
+Version 0.1
+
+Contact: mattia dot verga at tiscali dot it
 
 
 
-* PRESENTATION *
+### PRESENTATION
 
 OpenNGC is a database containing positions and main data of
 NGC (New General Catalogue) objects. Unlike other similar databases which
@@ -14,7 +18,7 @@ For information about data fields contained in the database, please see
 the file NGC_guide.txt.
 
 
-* DATA SOURCES *
+### DATA SOURCES
 
 OpenNGC has been built by merging data from:
 
@@ -30,6 +34,6 @@ OpenNGC has been built by merging data from:
    We acknowledge the usage of the HyperLeda database (http://leda.univ-lyon1.fr)
 
 
-* STATUS *
+### STATUS
 Currently importing data.
 Objects of type galaxy till NGC1500 done.
