@@ -1,5 +1,5 @@
 # OpenNGC
-Database NGC (New General Catalogue) libero da licenze
+Database NGC (New General Catalogue) con licenza libera
 
 Versione 0.1
 
@@ -12,7 +12,8 @@ Contatto: mattia dot verga at tiscali dot it
 OpenNGC è un database contenente le posizioni e i principali dati degli
 oggetti che compongono il catalogo NGC (New General Catalogue).
 A differenza di altri database simili che sono rilasciati con limitazioni
-di licenza, OpenNGC è rilasciato sotto la licenza CC-BY-SA-4.0.
+di licenza, OpenNGC è rilasciato sotto la licenza CC-BY-SA-4.0, che permette
+un più vasto ventaglio di campi d'impiego.
 
 Per una legenda dei dati presenti nel database si rimanda al file
 NGC_guide.txt.
