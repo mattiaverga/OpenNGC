@@ -28,10 +28,14 @@ OpenNGC has been built by merging data from:
    which is operated by the Jet Propulsion Laboratory,
    California Institute of Technology, under contract with the
    National Aeronautics and Space Administration.
-   
+
  - HyperLEDA database
    http://leda.univ-lyon1.fr
    We acknowledge the usage of the HyperLeda database (http://leda.univ-lyon1.fr)
+
+ - SIMBAD Astronomical Database
+   http://simbad.u-strasbg.fr/simbad/
+   This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France
 
 
 ### STATUS
