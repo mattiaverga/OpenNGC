@@ -41,4 +41,4 @@ OpenNGC è stato compilato unendo i dati delle seguenti fonti:
 
 ### STATO
 Al momento si sta ancora importando i dati.
-Gli oggetti di tipo galassia fino a NGC2000 sono caricati.
+Gli oggetti di tipo galassia fino a NGC4500 sono caricati.
