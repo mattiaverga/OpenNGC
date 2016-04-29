@@ -40,4 +40,4 @@ OpenNGC has been built by merging data from:
 
 ### STATUS
 Currently importing data.
-Objects of type galaxy till NGC5700 done.
+Objects of type galaxy till NGC6000 done.
