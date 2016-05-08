@@ -38,7 +38,9 @@ OpenNGC è stato compilato unendo i dati delle seguenti fonti:
    http://simbad.u-strasbg.fr/simbad/
    This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France
 
+In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati dal NED.
+
 
 ### STATO
 Al momento si sta ancora importando i dati.
-Gli oggetti di tipo galassia fino a NGC6900 sono caricati.
+Gli oggetti di tipo galassia sono completi.

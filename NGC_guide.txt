@@ -1,9 +1,7 @@
-- Cat: Catalog name
+- Name: Object name composed by catalog + number
     NGC: New General Catalogue
     IC: Index Catalogue
     
-- N: Item number in the catalog
-
 - Type: Object type
     We use object types listed in NASA/IPAC Extragalactic Database
     See legend at http://ned.ipac.caltech.edu/help/faq5.html#5k

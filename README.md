@@ -37,7 +37,9 @@ OpenNGC has been built by merging data from:
    http://simbad.u-strasbg.fr/simbad/
    This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France
 
+Where incongruences between catalogs was found we used NED as source.
+
 
 ### STATUS
 Currently importing data.
-Objects of type galaxy till NGC6900 done.
+Objects of type galaxy are completed.
