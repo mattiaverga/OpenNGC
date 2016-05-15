@@ -3,12 +3,16 @@
     IC: Index Catalogue
     
 - Type: Object type
-    We use object types listed in NASA/IPAC Extragalactic Database
-    See legend at http://ned.ipac.caltech.edu/help/faq5.html#5k
-    (this will probably be changed soon, we must distinguish
-    between Open Clusters and Globular Clusters and maybe simplify
-    object types a little)
-    We added type "Dup" for duplicated objects.
+    *Ass: Association of stars
+    OCl: Open Cluster
+    GCl: Globular Cluster
+    G: Galaxy
+    GPair: Galaxy Pair
+    GTrpl: Galaxy Triplet
+    PN: Planetary Nebula
+    HII: HII Ionized region
+    Neb: Nebula
+    NonEx: Nonexistent object
     
 - RA: Right Ascension in J2000 Epoch (HH:MM:SS.SS)
 

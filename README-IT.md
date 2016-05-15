@@ -38,9 +38,14 @@ OpenNGC è stato compilato unendo i dati delle seguenti fonti:
    http://simbad.u-strasbg.fr/simbad/
    This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France
 
+ - HEASARC High Energy Astrophysics Science Archive Research Center
+   http://heasarc.gsfc.nasa.gov/
+   Abbiamo usato diversi database da HEASARC come mwsc, lbn e WDS
+
 In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati dal NED.
 
 
 ### STATO
 Al momento si sta ancora importando i dati.
 Gli oggetti di tipo galassia sono completi.
+Altri tipi di oggetti sono completi fino a NGC300.

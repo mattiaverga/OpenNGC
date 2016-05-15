@@ -37,9 +37,14 @@ OpenNGC has been built by merging data from:
    http://simbad.u-strasbg.fr/simbad/
    This research has made use of the SIMBAD database, operated at CDS, Strasbourg, France
 
+ - HEASARC High Energy Astrophysics Science Archive Research Center
+   http://heasarc.gsfc.nasa.gov/
+   We used several databases from HEASARC such as mwsc, lbn and WDS
+
 Where incongruences between catalogs was found we used NED as source.
 
 
 ### STATUS
 Currently importing data.
 Objects of type galaxy are completed.
+Other object types till NGC300 completed.
