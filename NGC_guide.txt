@@ -3,6 +3,8 @@
     IC: Index Catalogue
     
 - Type: Object type
+    *: Star
+    **: Double star
     *Ass: Association of stars
     OCl: Open Cluster
     GCl: Globular Cluster
