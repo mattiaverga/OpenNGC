@@ -48,4 +48,4 @@ In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati da
 ### STATO
 Al momento si sta ancora importando i dati.
 Gli oggetti di tipo galassia sono completi.
-Altri tipi di oggetti sono completi fino a NGC300.
+Altri tipi di oggetti sono completi fino a NGC1300.
