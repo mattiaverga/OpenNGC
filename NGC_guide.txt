@@ -13,6 +13,7 @@
     GTrpl: Galaxy Triplet
     PN: Planetary Nebula
     HII: HII Ionized region
+    EmN: Emission Nebula
     Neb: Nebula
     NonEx: Nonexistent object
     
@@ -26,7 +27,7 @@
 
 - PosAng: Major axis position angle (North Eastwards)
 
-- Mag: Apparent total B-magnitude
+- B-Mag: Apparent total B-magnitude
 
 - SurfBr: Mean surface brigthness within 25 mag isophot (B-band), expressed in mag/arcsec2
 
