@@ -11,10 +11,13 @@
     G: Galaxy
     GPair: Galaxy Pair
     GTrpl: Galaxy Triplet
+    GGroup: Group of galaxies
     PN: Planetary Nebula
     HII: HII Ionized region
     EmN: Emission Nebula
     Neb: Nebula
+    RfN: Reflection Nebula
+    SNR: Supernova remnant
     NonEx: Nonexistent object
     
 - RA: Right Ascension in J2000 Epoch (HH:MM:SS.SS)

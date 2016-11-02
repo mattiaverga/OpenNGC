@@ -47,4 +47,4 @@ Where incongruences between catalogs was found we used NED as source.
 ### STATUS
 Currently importing data.
 Objects of type galaxy are completed.
-Other object types till NGC1700 completed.
+Other object types till NGC2000 completed.
