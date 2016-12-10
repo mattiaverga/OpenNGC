@@ -43,8 +43,16 @@ OpenNGC has been built by merging data from:
 
 Where incongruences between catalogs was found we used NED as source.
 
+#### NOTES ON OBJECT DATA
+
+ - All object types: coordinates are taken from NED
+ 
+ - Open clusters (OCl | *Ass): where available, diameter is taken from 
+   Milky Way Star Clusters Catalog table, central_radius parameter.
+   MWSC object number is reported for reference.
+
 
 ### STATUS
 Currently importing data.
 Objects of type galaxy are completed.
-Other object types till NGC2000 completed.
+Other object types till NGC3000 completed.

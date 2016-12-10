@@ -44,8 +44,16 @@ OpenNGC è stato compilato unendo i dati delle seguenti fonti:
 
 In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati dal NED.
 
+#### NOTE SUI DATI
+
+ - Tutti gli oggetti: le coordinate sono ottenute dal NED
+ 
+ - Ammassi aperti (OCl | *Ass): dove disponibile, il diametro riportato è riferito 
+   al parametro central_radius della tabella Milky Way Star Clusters Catalog.
+   Il numero di oggetto MWSC è riportato per riferimento.
+
 
 ### STATO
 Al momento si sta ancora importando i dati.
 Gli oggetti di tipo galassia sono completi.
-Altri tipi di oggetti sono completi fino a NGC2000.
+Altri tipi di oggetti sono completi fino a NGC3000.
