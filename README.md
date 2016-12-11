@@ -39,7 +39,7 @@ OpenNGC has been built by merging data from:
 
  - HEASARC High Energy Astrophysics Science Archive Research Center
    http://heasarc.gsfc.nasa.gov/
-   We used several databases from HEASARC such as mwsc, lbn and WDS
+   We used several databases from HEASARC such as mwsc, lbn, pn and WDS
 
 Where incongruences between catalogs was found we used NED as source.
 
@@ -51,6 +51,11 @@ Where incongruences between catalogs was found we used NED as source.
    Milky Way Star Clusters Catalog table, central_radius parameter.
    MWSC object number is reported for reference.
 
+ - Planetary Nebulae (PN): we merged data from Galactic Planetary Nebulae Catalog
+   and SIMBAD. Diameter and central star magnitudes are taken from plnebulae table,
+   fields opt_diameter, umag_cstar, bmag_cstar, vmag_cstar. Other object magnitudes
+   (B - V - J - H - K) are taken from SIMBAD because they're referred to more recent
+   measures, but if not available we used fields jmag, hmag, kmag.
 
 ### STATUS
 Currently importing data.

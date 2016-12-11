@@ -30,14 +30,30 @@
 
 - PosAng: Major axis position angle (North Eastwards)
 
-- B-Mag: Apparent total B-magnitude
+- B-Mag: Apparent total magnitude in B filter
 
-- SurfBr: Mean surface brigthness within 25 mag isophot (B-band), expressed in mag/arcsec2
+- V-Mag: Apparent total magnitude in V filter
 
-- Hubble: Morphological type (for galaxies)
+- J-Mag: Apparent total magnitude in J filter
+
+- H-Mag: Apparent total magnitude in H filter
+
+- K-Mag: Apparent total magnitude in K filter
+
+- SurfBr (only Galaxies): Mean surface brigthness within 25 mag isophot (B-band), expressed in mag/arcsec2
+
+- Hubble (only Galaxies): Morphological type (for galaxies)
+
+- Cstar U-Mag (only Planetary Nebulae): Apparent magnitude of central star in U filter
+
+- Cstar B-Mag (only Planetary Nebulae): Apparent magnitude of central star in B filter
+
+- Cstar V-Mag (only Planetary Nebulae): Apparent magnitude of central star in V filter
 
 - M: cross reference Messier number
 
 - NGC: other NGC names (used for duplicated objects)
+
+- Cstar Names (only Planetary Nebulae): central star identifications
 
 - Names: cross reference with other catalogs
