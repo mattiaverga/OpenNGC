@@ -49,14 +49,12 @@ In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati da
  - Tutti gli oggetti: le coordinate sono ottenute dal NED
  
  - Ammassi aperti (OCl | *Ass): dove disponibile, il diametro riportato è riferito 
-   al parametro central_radius della tabella Milky Way Star Clusters Catalog.
+   al campo central_radius della tabella Milky Way Star Clusters Catalog.
    Il numero di oggetto MWSC è riportato per riferimento.
 
- - Nebulose planetarie (PN): abbiamo riunito i dati dal Galactic Planetary Nebulae Catalog
-   e da SIMBAD. Diametro e magnitudini della stella centrale sono prese dalla tabella
-   plnebulae campi opt_diameter, umag_cstar, bmag_cstar, vmag_cstar. Le altre magnitudini
-   dell'oggetto (B - V - J - H - K) sono prese da SIMBAD in quanto riferite a misure
-   più aggiornate, se non disponibili sono prese dai campi jmag, hmag, kmag.
+ - Nebulose planetarie (PN): i dati sono stati importati dalla tabella HEASARC plnebulae
+   dai campi opt_diameter, jmag, hmag, kmag, umag_cstar, bmag_cstar, vmag_cstar,
+   name, pk_name, iras_name, alt_name_1, alt_name_2, alt_name_3, alt_name_4.
 
 ### STATO
 Al momento si sta ancora importando i dati.

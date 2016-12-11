@@ -48,14 +48,12 @@ Where incongruences between catalogs was found we used NED as source.
  - All object types: coordinates are taken from NED
  
  - Open clusters (OCl | *Ass): where available, diameter is taken from 
-   Milky Way Star Clusters Catalog table, central_radius parameter.
+   Milky Way Star Clusters Catalog table, central_radius field.
    MWSC object number is reported for reference.
 
- - Planetary Nebulae (PN): we merged data from Galactic Planetary Nebulae Catalog
-   and SIMBAD. Diameter and central star magnitudes are taken from plnebulae table,
-   fields opt_diameter, umag_cstar, bmag_cstar, vmag_cstar. Other object magnitudes
-   (B - V - J - H - K) are taken from SIMBAD because they're referred to more recent
-   measures, but if not available we used fields jmag, hmag, kmag.
+ - Planetary Nebulae (PN): data is imported from HEASARC plnebulae table,
+   fields used are opt_diameter, jmag, hmag, kmag, umag_cstar, bmag_cstar, vmag_cstar,
+   name, pk_name, iras_name, alt_name_1, alt_name_2, alt_name_3, alt_name_4.
 
 ### STATUS
 Currently importing data.
