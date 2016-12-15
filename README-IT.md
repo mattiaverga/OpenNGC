@@ -46,17 +46,18 @@ In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati da
 
 #### NOTE SUI DATI
 
- - Tutti gli oggetti: le coordinate sono ottenute dal NED
+ - Tutti gli oggetti: le coordinate sono ottenute dal NED; le magnitudini sono
+   ottenute da SIMBAD.
  
- - Ammassi aperti (OCl | *Ass): dove disponibile, il diametro riportato è riferito 
-   al campo central_radius della tabella Milky Way Star Clusters Catalog.
-   Il numero di oggetto MWSC è riportato per riferimento.
+ - Ammassi stellari (OCl | GCl | *Ass | Cl+N): dove disponibile, i diametri e l'angolo
+   di posizione sono ottenute dalle seguenti tabelle HEASARC: mwsc [central_radius];
+   smcclustrs [major_diameter, minor_diameter, position_angle];
+   lmcextobj [major_axis, minor_axis, position_angle].
 
  - Nebulose planetarie (PN): i dati sono stati importati dalla tabella HEASARC plnebulae
-   dai campi opt_diameter, jmag, hmag, kmag, umag_cstar, bmag_cstar, vmag_cstar,
+   dai campi opt_diameter, umag_cstar, bmag_cstar, vmag_cstar,
    name, pk_name, iras_name, alt_name_1, alt_name_2, alt_name_3, alt_name_4.
 
 ### STATO
 Al momento si sta ancora importando i dati.
-Gli oggetti di tipo galassia sono completi.
-Altri tipi di oggetti sono completi fino a NGC3000.
+Gli oggetti sono (per la maggior parte) completi fino a NGC3300.

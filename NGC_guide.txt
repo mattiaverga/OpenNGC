@@ -8,6 +8,7 @@
     *Ass: Association of stars
     OCl: Open Cluster
     GCl: Globular Cluster
+    Cl+N: Star cluster + Nebula
     G: Galaxy
     GPair: Galaxy Pair
     GTrpl: Galaxy Triplet

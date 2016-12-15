@@ -45,17 +45,17 @@ Where incongruences between catalogs was found we used NED as source.
 
 #### NOTES ON OBJECT DATA
 
- - All object types: coordinates are taken from NED
+ - All object types: coordinates are taken from NED; magnitudes are taken from SIMBAD.
  
- - Open clusters (OCl | *Ass): where available, diameter is taken from 
-   Milky Way Star Clusters Catalog table, central_radius field.
-   MWSC object number is reported for reference.
+ - Star clusters (OCl | GCl | *Ass | Cl+N): where available, diameters and 
+   position angle are taken from the following HEASARC tables: mwsc [central_radius];
+   smcclustrs [major_diameter, minor_diameter, position_angle];
+   lmcextobj [major_axis, minor_axis, position_angle].
 
  - Planetary Nebulae (PN): data is imported from HEASARC plnebulae table,
-   fields used are opt_diameter, jmag, hmag, kmag, umag_cstar, bmag_cstar, vmag_cstar,
+   fields used are opt_diameter, umag_cstar, bmag_cstar, vmag_cstar,
    name, pk_name, iras_name, alt_name_1, alt_name_2, alt_name_3, alt_name_4.
 
 ### STATUS
 Currently importing data.
-Objects of type galaxy are completed.
-Other object types till NGC3000 completed.
+Objects till NGC3300 (mostly) completed.
