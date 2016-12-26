@@ -1,7 +1,7 @@
 # OpenNGC
 A license friendly NGC (New General Catalogue) database
 
-Version 0.1
+Version 0.2
 
 Contact: mattia dot verga at tiscali dot it
 
@@ -39,13 +39,16 @@ OpenNGC has been built by merging data from:
 
  - HEASARC High Energy Astrophysics Science Archive Research Center
    http://heasarc.gsfc.nasa.gov/
-   We used several databases from HEASARC such as mwsc, lbn, pn and WDS
+   We used several databases from HEASARC such as mwsc, lbn, plnebulae, lmcextobj and smcclustrs.
 
 Where incongruences between catalogs was found we used NED as source.
 
 #### NOTES ON OBJECT DATA
 
  - All object types: coordinates are taken from NED; magnitudes are taken from SIMBAD.
+ 
+ - Galaxies (G | GGroup | GPair | Gtrpl): major axis, minor axis and position angle are
+   taken from SIMBAD; surface brightness and Hubble classification are taken from LEDA.
  
  - Star clusters (OCl | GCl | *Ass | Cl+N): where available, diameters and 
    position angle are taken from the following HEASARC tables: mwsc [central_radius];
@@ -55,7 +58,11 @@ Where incongruences between catalogs was found we used NED as source.
  - Planetary Nebulae (PN): data is imported from HEASARC plnebulae table,
    fields used are opt_diameter, umag_cstar, bmag_cstar, vmag_cstar,
    name, pk_name, iras_name, alt_name_1, alt_name_2, alt_name_3, alt_name_4.
+   
+ - Nebulae (HII | Neb | EmN | RfN | SNR): where available, major and minor axis are taken
+   from HEASARC lbn table [large_dimension], [small dimension].
 
 ### STATUS
-Currently importing data.
-Objects till NGC3300 (mostly) completed.
+NGC objects are completed.
+I now want to better specify members in GGroup, GPair and GTrpl.
+Next step will be to start importing IC objects data.

@@ -53,8 +53,12 @@
 
 - M: cross reference Messier number
 
-- NGC: other NGC names (used for duplicated objects)
+- NGC: other NGC names
+
+- IC: cross reference IC number
 
 - Cstar Names (only Planetary Nebulae): central star identifications
 
 - Names: cross reference with other catalogs
+
+- Notes: notes about object from NED

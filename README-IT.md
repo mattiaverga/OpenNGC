@@ -1,7 +1,7 @@
 # OpenNGC
 Database NGC (New General Catalogue) con licenza libera
 
-Versione 0.1
+Versione 0.2
 
 Contatto: mattia dot verga at tiscali dot it
 
@@ -40,7 +40,7 @@ OpenNGC è stato compilato unendo i dati delle seguenti fonti:
 
  - HEASARC High Energy Astrophysics Science Archive Research Center
    http://heasarc.gsfc.nasa.gov/
-   Abbiamo usato diversi database da HEASARC come mwsc, lbn e WDS
+   Abbiamo usato diversi database da HEASARC come mwsc, lbn, plnebulae, lmcextobj e smcclustrs.
 
 In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati dal NED.
 
@@ -48,16 +48,23 @@ In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati da
 
  - Tutti gli oggetti: le coordinate sono ottenute dal NED; le magnitudini sono
    ottenute da SIMBAD.
+   
+ - Galassie (G | GGroup | GPair | Gtrpl): diametri e angolo di posizione sono importati
+   da SIMBAD; luminosità superficiale e classificazione sono importati da LEDA.
  
- - Ammassi stellari (OCl | GCl | *Ass | Cl+N): dove disponibile, i diametri e l'angolo
-   di posizione sono ottenute dalle seguenti tabelle HEASARC: mwsc [central_radius];
+ - Ammassi stellari (OCl | GCl | *Ass | Cl+N): dove disponibili, i diametri e l'angolo
+   di posizione sono ottenuti dalle seguenti tabelle HEASARC: mwsc [central_radius];
    smcclustrs [major_diameter, minor_diameter, position_angle];
    lmcextobj [major_axis, minor_axis, position_angle].
 
  - Nebulose planetarie (PN): i dati sono stati importati dalla tabella HEASARC plnebulae
    dai campi opt_diameter, umag_cstar, bmag_cstar, vmag_cstar,
    name, pk_name, iras_name, alt_name_1, alt_name_2, alt_name_3, alt_name_4.
+   
+ - Nebulose (HII | Neb | EmN | RfN | SNR): dove disponibili, i diametri e l'angolo
+   di posizione sono ottenuti dalla tabella HEASARC lbn, campi [large_dimension], [small dimension].
 
 ### STATO
-Al momento si sta ancora importando i dati.
-Gli oggetti sono (per la maggior parte) completi fino a NGC3300.
+Oggetti NGC sono completi.
+Ora specificherò meglio i singoli componenti nei gruppi GGroup, GPair and GTrpl.
+Il prossimo passo sarà iniziare a importare i dati degli oggetti IC.
