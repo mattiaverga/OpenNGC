@@ -50,7 +50,8 @@ In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati da
    ottenute da SIMBAD.
    
  - Galassie (G | GGroup | GPair | Gtrpl): diametri e angolo di posizione sono importati
-   da SIMBAD; luminosità superficiale e classificazione sono importati da LEDA.
+   da SIMBAD (solitamente riferiti alle misure 2MASS, quindi in infrarosso e non visuale);
+   luminosità superficiale e classificazione sono importati da LEDA.
  
  - Ammassi stellari (OCl | GCl | *Ass | Cl+N): dove disponibili, i diametri e l'angolo
    di posizione sono ottenuti dalle seguenti tabelle HEASARC: mwsc [central_radius];

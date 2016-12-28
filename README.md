@@ -48,7 +48,8 @@ Where incongruences between catalogs was found we used NED as source.
  - All object types: coordinates are taken from NED; magnitudes are taken from SIMBAD.
  
  - Galaxies (G | GGroup | GPair | Gtrpl): major axis, minor axis and position angle are
-   taken from SIMBAD; surface brightness and Hubble classification are taken from LEDA.
+   taken from SIMBAD (usually from 2MASS measures, so they're referred to IR, not visual);
+   surface brightness and Hubble classification are taken from LEDA.
  
  - Star clusters (OCl | GCl | *Ass | Cl+N): where available, diameters and 
    position angle are taken from the following HEASARC tables: mwsc [central_radius];
