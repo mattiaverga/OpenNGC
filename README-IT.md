@@ -49,9 +49,10 @@ In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati da
  - Tutti gli oggetti: le coordinate sono ottenute dal NED; le magnitudini sono
    ottenute da SIMBAD.
    
- - Galassie (G | GGroup | GPair | Gtrpl): diametri e angolo di posizione sono importati
-   da SIMBAD (solitamente riferiti alle misure 2MASS, quindi in infrarosso e non visuale);
-   luminosità superficiale e classificazione sono importati da LEDA.
+ - Galassie (G | GGroup | GPair | Gtrpl): diametri, angolo di posizione, luminosità superficiale
+   e classificazione sono importati da LEDA. Se i diametri non sono disponibili in LEDA allora
+   sono presi da SIMBAD (solitamente riferiti alle misure 2MASS, quindi in infrarosso e non visuale;
+   in questo caso è stata aggiunta una nota all'oggetto).
  
  - Ammassi stellari (OCl | GCl | *Ass | Cl+N): dove disponibili, i diametri e l'angolo
    di posizione sono ottenuti dalle seguenti tabelle HEASARC: mwsc [central_radius];

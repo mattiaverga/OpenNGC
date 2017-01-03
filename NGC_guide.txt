@@ -61,4 +61,4 @@
 
 - Names: cross reference with other catalogs
 
-- Notes: notes about object from NED
+- Notes: notes about object from NED or notes about object's data
