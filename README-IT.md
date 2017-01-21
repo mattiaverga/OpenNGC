@@ -1,7 +1,7 @@
 # OpenNGC
 Database NGC (New General Catalogue) con licenza libera
 
-Versione 0.2
+Versione 0.3
 
 Contatto: mattia dot verga at tiscali dot it
 
@@ -68,5 +68,4 @@ In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati da
 
 ### STATO
 Oggetti NGC sono completi.
-Ora specificherò meglio i singoli componenti nei gruppi GGroup, GPair and GTrpl.
 Il prossimo passo sarà iniziare a importare i dati degli oggetti IC.
