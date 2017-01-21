@@ -1,7 +1,7 @@
 # OpenNGC
 A license friendly NGC (New General Catalogue) database
 
-Version 0.2
+Version 0.3
 
 Contact: mattia dot verga at tiscali dot it
 
@@ -66,5 +66,4 @@ Where incongruences between catalogs was found we used NED as source.
 
 ### STATUS
 NGC objects are completed.
-I now want to better specify members in GGroup, GPair and GTrpl.
 Next step will be to start importing IC objects data.
