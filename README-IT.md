@@ -62,6 +62,7 @@ In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati da
  - Nebulose planetarie (PN): i dati sono stati importati dalla tabella HEASARC plnebulae
    dai campi opt_diameter, umag_cstar, bmag_cstar, vmag_cstar,
    name, pk_name, iras_name, alt_name_1, alt_name_2, alt_name_3, alt_name_4.
+   B_Mag è importato da Revised New General Catalogue (Sulentic+, 1973).
    
  - Nebulose (HII | Neb | EmN | RfN | SNR): dove disponibili, i diametri e l'angolo
    di posizione sono ottenuti dalla tabella HEASARC lbn, campi [large_dimension], [small dimension].

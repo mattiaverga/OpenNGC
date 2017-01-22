@@ -60,6 +60,7 @@ Where incongruences between catalogs was found we used NED as source.
  - Planetary Nebulae (PN): data is imported from HEASARC plnebulae table,
    fields used are opt_diameter, umag_cstar, bmag_cstar, vmag_cstar,
    name, pk_name, iras_name, alt_name_1, alt_name_2, alt_name_3, alt_name_4.
+   B_Mag value is imported from Revised New General Catalogue (Sulentic+, 1973).
    
  - Nebulae (HII | Neb | EmN | RfN | SNR): where available, major and minor axis are taken
    from HEASARC lbn table [large_dimension], [small dimension].
