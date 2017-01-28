@@ -1,7 +1,7 @@
 # OpenNGC
 A license friendly NGC (New General Catalogue) database
 
-Version 0.3
+Version 0.4
 
 Contact: mattia dot verga at tiscali dot it
 
@@ -60,10 +60,11 @@ Where incongruences between catalogs was found we used NED as source.
  - Planetary Nebulae (PN): data is imported from HEASARC plnebulae table,
    fields used are opt_diameter, umag_cstar, bmag_cstar, vmag_cstar,
    name, pk_name, iras_name, alt_name_1, alt_name_2, alt_name_3, alt_name_4.
-   B_Mag value is imported from Revised New General Catalogue (Sulentic+, 1973).
+   B_Mag value is imported from LEDA.
    
  - Nebulae (HII | Neb | EmN | RfN | SNR): where available, major and minor axis are taken
-   from HEASARC lbn table [large_dimension], [small dimension].
+   from HEASARC lbn table [large_dimension], [small dimension]. If data source is different
+   then is specified in object notes.
 
 ### STATUS
 NGC objects are completed.
