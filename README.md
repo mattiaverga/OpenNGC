@@ -1,7 +1,7 @@
 # OpenNGC
-A license friendly NGC (New General Catalogue) database
+A license friendly NGC/IC objects database
 
-Version 0.4
+Version 1.0
 
 Contact: mattia dot verga at tiscali dot it
 
@@ -10,9 +10,10 @@ Contact: mattia dot verga at tiscali dot it
 ### PRESENTATION
 
 OpenNGC is a database containing positions and main data of
-NGC (New General Catalogue) objects. Unlike other similar databases which
-are released with license limitations, OpenNGC is released under
-CC-BY-SA-4.0 license, which allows the use for a wider range of cases.
+NGC (New General Catalogue) and IC (Index Catalogue) objects.
+Unlike other similar databases which are released with
+license limitations, OpenNGC is released under CC-BY-SA-4.0 license,
+which allows the use for a wider range of cases.
 
 For information about data fields contained in the database, please see
 the file NGC_guide.txt.
@@ -45,7 +46,8 @@ Where incongruences between catalogs was found we used NED as source.
 
 #### NOTES ON OBJECT DATA
 
- - All object types: coordinates are taken from NED; magnitudes are taken from SIMBAD.
+ - All object types: coordinates are taken from NED; magnitudes are taken from SIMBAD if not
+   specified otherwise.
  
  - Galaxies (G | GGroup | GPair | Gtrpl): data about major axis, minor axis, position angle,
    surface brightness and Hubble classification is taken from LEDA; if major axis or minor axis data
@@ -66,6 +68,3 @@ Where incongruences between catalogs was found we used NED as source.
    from HEASARC lbn table [large_dimension], [small dimension]. If data source is different
    then is specified in object notes.
 
-### STATUS
-NGC objects are completed.
-Next step will be to start importing IC objects data.

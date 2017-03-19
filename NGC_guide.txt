@@ -19,6 +19,7 @@
     Neb: Nebula
     RfN: Reflection Nebula
     SNR: Supernova remnant
+    Nova: Nova star
     NonEx: Nonexistent object
     
 - RA: Right Ascension in J2000 Epoch (HH:MM:SS.SS)
