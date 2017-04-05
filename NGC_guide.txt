@@ -60,6 +60,8 @@
 
 - Cstar Names (only Planetary Nebulae): central star identifications
 
-- Names: cross reference with other catalogs
+- Identifiers: cross reference with other catalogs
+
+- Common names: Common names of the object if any
 
 - Notes: notes about object from NED or notes about object's data
