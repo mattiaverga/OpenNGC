@@ -26,6 +26,8 @@
 
 - Dec: Declination in J2000 Epoch (+/-DD:MM:SS.SS)
 
+- Const: Constellation where the object is located
+
 - Smax: Major axis, expressed in arcmin
 
 - Smin: Minor axis, expressed in arcmin
