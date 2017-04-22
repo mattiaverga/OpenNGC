@@ -1,7 +1,7 @@
 # OpenNGC
 A license friendly NGC/IC objects database
 
-Version 1.0
+Version 1.1
 
 Contact: mattia dot verga at tiscali dot it
 

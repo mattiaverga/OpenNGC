@@ -66,4 +66,6 @@
 
 - Common names: Common names of the object if any
 
-- Notes: notes about object from NED or notes about object's data
+- NED Notes: notes about object exported from NED
+
+- OpenNGC Notes: notes about the object data from OpenNGC catalog
