@@ -45,6 +45,8 @@ OpenNGC è stato compilato unendo i dati delle seguenti fonti:
 
 In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati dal NED.
 
+Alcuni nomi comuni degli oggetti sono presi da sorgenti internet come Wikipedia.
+
 #### NOTE SUI DATI
 
  - Tutti gli oggetti: le coordinate sono ottenute dal NED; le magnitudini sono

@@ -44,6 +44,8 @@ OpenNGC has been built by merging data from:
 
 Where incongruences between catalogs was found we used NED as source.
 
+Some common names are taken from internet sources like Wikipedia.
+
 #### NOTES ON OBJECT DATA
 
  - All object types: coordinates are taken from NED; magnitudes are taken from SIMBAD if not
