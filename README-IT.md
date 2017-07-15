@@ -71,3 +71,7 @@ Alcuni nomi comuni degli oggetti sono presi da sorgenti internet come Wikipedia.
    di posizione sono ottenuti dalla tabella HEASARC lbn, campi [large_dimension], [small dimension].
    Se la sorgente dei dati è diversa, allora è specificata nelle note dell'oggetto.
 
+#### ADDEDUM
+
+La cartella 'addendum' contiene un file di catalogo separato che lista una serie di oggetti interessanti
+per gli astrofili, ma che non sono parte dei cataloghi NGC o IC.

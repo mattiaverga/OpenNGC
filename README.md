@@ -70,3 +70,7 @@ Some common names are taken from internet sources like Wikipedia.
    from HEASARC lbn table [large_dimension], [small dimension]. If data source is different
    then is specified in object notes.
 
+#### THE ADDENDUM
+
+The 'addendum' folder contains a separate catalog file with notably objects that are not
+part of the NGC or IC catalog. These objects may be of some interest to amateur astronomers.
