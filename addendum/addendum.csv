@@ -2,11 +2,20 @@ Name;Type;RA;Dec;Const;Smax;Smin;PosAng;B-Mag;V-Mag;J-Mag;H-Mag;K-Mag;SurfBr;Hub
 B33;DrkN;05:40:59.0;-02:27:30;Ori;6.00;4.00;90;;;;;;;;;;;;;;;;Horsehead Nebula;;Coordinates and diameters taken from Simbad.
 C9;HII;22:57:54.0;+62:31:06;Cep;50.00;30.00;;;;;;;;;;;;;;;;LBN 529,SH 2-155;Cave Nebula;;Coordinates taken from Simbad.
 C14;*Ass;02:20:42.0;+57:08:15;Per;50.00;50.00;;;;;;;;;;;;;;;;;Double Cluster, h & chi Persei;;Coordinates and dimensions inferred by author.
-C41;OCl;04:26:54.0;+15:52:00;Tau;330.00;330.00;;;;;;;;;;;;;;;;Mel 25;Hyades;;Coordinates taken from Simbad. Diameters and magnitude taken from Wikipedia.
-C99;DrkN;12:31:19.0;-63:44:36;Cru;420.00;300.00;;;;;;;;;;;;;;;;;Coalsack Nebula;;Coordinates taken from Simbad. Diameters taken from Wikipedia.
+C41;OCl;04:26:54.0;+15:52:00;Tau;;;;;;;;;;;;;;;;;;Mel 25;Hyades;;Coordinates taken from Simbad.
+C99;DrkN;12:31:19.0;-63:44:36;Cru;;;;;;;;;;;;;;;;;;;Coalsack Nebula;;Coordinates taken from Simbad.
 Cl399;*Ass;19:25:24.0;+20:11:00;Vul;70.00;;;3.93;3.60;;;;;;;;;;;;;;Brocchi's Cluster, Al Sufi's Cluster, Coathanger Asterism;;Diameter inferred by the author.
 ESO56-115;G;05:23:34.5;-69:45:22;Dor;646.00;550.00;170;0.80;0.40;;;;23.45;SBm;;;;;;;;ESO-LV 0561150,IRAS 05240-6948,PGC 017223;Large Magellanic Cloud,Nubecula Major;;BMag taken from LEDA.
+H5;OCl;12:27:16.0;-60:46:42;Cru;6.00;;;7.39;7.10;;;;;;;;;;;;;;;;Coordinates taken from Simbad.
+H13;OCl;17:03:51.0;-48:05:00;Ara;4.50;;;;;;;;;;;;;;;;;MWSC 2523;;;Coordinates taken from Simbad.
+H20;OCl;19:53:06.0;+18:20:00;Sge;5.10;;;8.40;7.70;;;;;;;;;;;;;MWSC 3198;;;Coordinates taken from Simbad.
+H21;OCl;23:54:13.2;+61:44:24;Cas;1.80;;;;9.00;;;;;;;;;;;;;MWSC 3774;;;Coordinates taken from Simbad.
 HCG79;GGroup;15:59:11.9;+20:45:31;Ser;2.80;;;;;;;;;;;;;;;;;IRAS 15570+2053;Seyfert's Sextet;;Diameter inferred by the author.
 HCG92;GGroup;22:35:59.0;+33:57:30;Peg;4.40;;;;;;;;;;;;;;;;;IRAS 22337+3342;Stephan's Quintet;Contains the GPair NGC 7318.;Diameter inferred by the author.
 M40;**;12:22:16.1;+58:05:04;UMa;;;;0.50;;;;;;;;;;040;;;;WDS J12222+5805AB;;;BMag taken from NED.
-Mel22;OCl;03:47:28.6;+24:06:19;Tau;150.00;150.00;90;;1.60;;;;;;;;;045;;;;MWSC 0305;Pleiades;;VMag taken from wikipedia.
+Mel22;OCl;03:47:28.6;+24:06:19;Tau;150.00;150.00;90;;;;;;;;;;;045;;;;MWSC 0305;Pleiades;;Coordinates taken from Simbad.
+Mel71;OCl;07:37:33.6;-12:03:18;Pup;14.40;;;7.44;7.10;;;;;;;;;;;;;MWSC 1287;;;Coordinates taken from Simbad.
+Mel72;OCl;07:28:38.8;-10:42:00;Pup;7.50;;;;10.10;;;;;;;;;;;;;;;;Coordinates taken from Simbad.
+Mel101;OCl;10:42:12.0;-65:06:00;Car;8.40;;;8.50;8.00;;;;;;;;;;;;;MWSC 1840;;;Coordinates taken from Simbad.
+Mel105;OCl;11:19:42.0;-63:29:00;Car;5.40;;;9.05;8.50;;;;;;;;;;;;;MWSC 1933;;;Coordinates taken from Simbad.
+Mel111;OCl;12:25:06.0;+26:06:00;Com;;;;;;;;;;;;;;;;;;;Coma Star Cluster;;Coordinates taken from Simbad.
