@@ -29,9 +29,9 @@
 
 - Const: Constellation where the object is located
 
-- Smax: Major axis, expressed in arcmin
+- MajAx: Major axis, expressed in arcmin
 
-- Smin: Minor axis, expressed in arcmin
+- MinAx: Minor axis, expressed in arcmin
 
 - PosAng: Major axis position angle (North Eastwards)
 

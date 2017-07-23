@@ -1,4 +1,4 @@
-Name;Type;RA;Dec;Const;Smax;Smin;PosAng;B-Mag;V-Mag;J-Mag;H-Mag;K-Mag;SurfBr;Hubble;Cstar U-Mag;Cstar B-Mag;Cstar V-Mag;M;NGC;IC;Cstar Names;Identifiers;Common names;NED notes;OpenNGC notes
+Name;Type;RA;Dec;Const;MajAx;MinAx;PosAng;B-Mag;V-Mag;J-Mag;H-Mag;K-Mag;SurfBr;Hubble;Cstar U-Mag;Cstar B-Mag;Cstar V-Mag;M;NGC;IC;Cstar Names;Identifiers;Common names;NED notes;OpenNGC notes
 IC0001;**;00:08:27.05;+27:43:03.6;Peg;;;;;;;;;;;;;;;;;;;;;
 IC0002;G;00:11:00.88;-12:49:22.3;Cet;0.98;0.32;142;15.46;;12.26;11.48;11.17;23.45;Sb;;;;;;;;2MASX J00110081-1249206,IRAS 00084-1306,MCG -02-01-031,PGC 000778;;;B-Mag taken from LEDA. 
 IC0003;G;00:12:06.09;-00:24:54.8;Psc;0.93;0.67;53;15.10;;11.53;10.79;10.54;23.50;E;;;;;;;;2MASX J00120604-0024543,MCG +00-01-038,PGC 000836,SDSS J001206.08-002454.7,SDSS J001206.09-002454.7,SDSS J001206.09-002454.8,SDSS J001206.10-002454.8;;;
