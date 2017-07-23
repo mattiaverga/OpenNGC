@@ -1,9 +1,8 @@
 # OpenNGC
 Database oggetti NGC/IC con licenza libera
 
-Versione 1.1
-
-Contatto: mattia dot verga at tiscali dot it
+Credits: Mattia Verga
+	https://github.com/mattiaverga/OpenNGC
 
 
 
