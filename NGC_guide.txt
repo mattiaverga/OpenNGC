@@ -57,9 +57,9 @@
 
 - M: cross reference Messier number
 
-- NGC: other NGC names
+- NGC: other NGC identification, if the object is listed twice in the catalog
 
-- IC: cross reference IC number
+- IC: cross reference IC number, if the object is also listed with that identification
 
 - Cstar Names (only Planetary Nebulae): central star identifications
 
