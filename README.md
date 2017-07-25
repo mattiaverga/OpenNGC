@@ -3,6 +3,8 @@ A license friendly NGC/IC objects database
 
 Credits: Mattia Verga
 	https://github.com/mattiaverga/OpenNGC
+	
+DOI: 10.21938/y.1ejWUD_MQ6b_eDFoVbbw
 
 
 ### PRESENTATION
