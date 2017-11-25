@@ -74,3 +74,7 @@ Some common names are taken from internet sources like Wikipedia.
 
 The 'addendum' folder contains a separate catalog file with notably objects that are not
 part of the NGC or IC catalog. These objects may be of some interest to amateur astronomers.
+
+### PYTHON INTERFACE
+
+For a basic Python interface to OpenNGC data, see PyOngc project at https://github.com/mattiaverga/PyOngc.
