@@ -4,6 +4,7 @@ Database oggetti NGC/IC con licenza libera
 Credits: Mattia Verga
 	https://github.com/mattiaverga/OpenNGC
 
+[![DOI: 10.21938/y.1ejWUD_MQ6b_eDFoVbbw](https://img.shields.io/badge/DOI-10.21938%2Fy.1ejWUD__MQ6b__eDFoVbbw-blue.svg)](http://dc.zah.uni-heidelberg.de/voidoi/q/lp/custom/10.21938/y.1ejWUD_MQ6b_eDFoVbbw)
 
 
 ### PRESENTAZIONE
