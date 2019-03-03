@@ -75,3 +75,7 @@ Alcuni nomi comuni degli oggetti sono presi da sorgenti internet come Wikipedia.
 
 La cartella 'addendum' contiene un file di catalogo separato che lista una serie di oggetti interessanti
 per gli astrofili, ma che non sono parte dei cataloghi NGC o IC.
+
+Nota che due oggetti Messier (M40 e M45) non hanno nessuna designazione NGC o IC e perciò sono
+presenti solo nell'addendum.
+
