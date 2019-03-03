@@ -40,7 +40,7 @@ OpenNGC has been built by merging data from:
 
  - HEASARC High Energy Astrophysics Science Archive Research Center
    http://heasarc.gsfc.nasa.gov/
-   We used several databases from HEASARC such as mwsc, lbn, plnebulae, lmcextobj and smcclustrs.
+   We used several databases from HEASARC such as messier, mwsc, lbn, plnebulae, lmcextobj and smcclustrs.
 
 Where incongruences between catalogs was found we used NED as source.
 

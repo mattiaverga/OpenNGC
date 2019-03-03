@@ -41,7 +41,7 @@ OpenNGC è stato compilato unendo i dati delle seguenti fonti:
 
  - HEASARC High Energy Astrophysics Science Archive Research Center
    http://heasarc.gsfc.nasa.gov/
-   Abbiamo usato diversi database da HEASARC come mwsc, lbn, plnebulae, lmcextobj e smcclustrs.
+   Abbiamo usato diversi database da HEASARC come messier, mwsc, lbn, plnebulae, lmcextobj e smcclustrs.
 
 In caso di incongruenze tra i diversi cataloghi si è preferito tenere i dati dal NED.
 
