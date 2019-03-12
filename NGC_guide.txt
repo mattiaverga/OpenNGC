@@ -22,6 +22,8 @@
     SNR: Supernova remnant
     Nova: Nova star
     NonEx: Nonexistent object
+    Dup: Duplicated object (see NGC or IC columns to find the master object)
+    Other: Other classification (see object notes)
     
 - RA: Right Ascension in J2000 Epoch (HH:MM:SS.SS)
 
