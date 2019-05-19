@@ -1,9 +1,9 @@
 Name;Type;RA;Dec;Const;MajAx;MinAx;PosAng;B-Mag;V-Mag;J-Mag;H-Mag;K-Mag;SurfBr;Hubble;Cstar U-Mag;Cstar B-Mag;Cstar V-Mag;M;NGC;IC;Cstar Names;Identifiers;Common names;NED notes;OpenNGC notes
 B33;DrkN;05:40:59.0;-02:27:30;Ori;6.00;4.00;90;;;;;;;;;;;;;;;;Horsehead Nebula;;Coordinates and diameters taken from Simbad.
-C9;HII;22:57:54.0;+62:31:06;Cep;50.00;30.00;;;;;;;;;;;;;;;;LBN 529,SH 2-155;Cave Nebula;;Coordinates taken from Simbad.
-C14;*Ass;02:20:42.0;+57:08:15;Per;50.00;50.00;;;;;;;;;;;;;;;;;Double Cluster, h & chi Persei;;Coordinates and dimensions inferred by author.
-C41;OCl;04:26:54.0;+15:52:00;Tau;329.00;;;;;;;;;;;;;;;;;Mel 25;Hyades;;Coordinates taken from Simbad, diameter taken from HEASARC's lyngaclust table
-C99;DrkN;12:31:19.0;-63:44:36;Cru;;;;;;;;;;;;;;;;;;;Coalsack Nebula;;Coordinates taken from Simbad.
+C009;HII;22:57:54.0;+62:31:06;Cep;50.00;30.00;;;;;;;;;;;;;;;;LBN 529,SH 2-155;Cave Nebula;;Coordinates taken from Simbad.
+C014;*Ass;02:20:42.0;+57:08:15;Per;50.00;50.00;;;;;;;;;;;;;;;;;Double Cluster, h & chi Persei;;Coordinates and dimensions inferred by author.
+C041;OCl;04:26:54.0;+15:52:00;Tau;329.00;;;;;;;;;;;;;;;;;Mel 25;Hyades;;Coordinates taken from Simbad, diameter taken from HEASARC's lyngaclust table
+C099;DrkN;12:31:19.0;-63:44:36;Cru;;;;;;;;;;;;;;;;;;;Coalsack Nebula;;Coordinates taken from Simbad.
 Cl399;*Ass;19:25:24.0;+20:11:00;Vul;70.00;;;3.93;3.60;;;;;;;;;;;;;;Brocchi's Cluster, Al Sufi's Cluster, Coathanger Asterism;;Diameter inferred by the author.
 ESO56-115;G;05:23:34.5;-69:45:22;Dor;646.00;550.00;170;0.80;0.40;;;;23.45;SBm;;;;;;;;ESO-LV 0561150,IRAS 05240-6948,PGC 017223;Large Magellanic Cloud,Nubecula Major;;BMag taken from LEDA.
 H5;OCl;12:27:16.0;-60:46:42;Cru;6.00;;;7.39;7.10;;;;;;;;;;;;;;;;Coordinates taken from Simbad.
