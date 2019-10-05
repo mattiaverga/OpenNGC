@@ -6,7 +6,7 @@ Then we export the plane in a subdirectory named 'objects' with an appropriate n
 Those object files have a lot of points due to the high pecision of the coordinates being saved, but we really don't need that amount of information, so we use the 'shape.py' script to simplify the shape of the object.
 Inside the script there's the 'shape_precision' variable, which by default is set to 0.002. Lowering that value will produce higher precision outlines, but with an increase of the size of the ouptut catalog.
 
-WIP: the 'shape' script currently outputs a catalog which fits the needs of Skychart Catgen (we also provide a project file for that). The next step will be to add a script for Stellarium, or to make the base script "modular", so that it can be extended to fit for different software.
+Currently the 'shape.py' script supports creating catalog files for Skychart's Catgen and Stellarium.
 
 Aknowledgements
 This research has made use of "Aladin sky atlas" developed at CDS, Strasbourg Observatory, France

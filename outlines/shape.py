@@ -23,7 +23,7 @@
 # SOFTWARE.
 #
 
-"""A simple script to create a Catgen readable input file.
+"""A simple script to create nebula outlines catalog for several software.
 
 The script will read all the files in the 'objects' directory
 and outputs a single file with simplified objects outlines.
@@ -34,41 +34,69 @@ increase the output file size.
 """
 
 import csv
-from shapely.geometry import LineString
 from os import walk
 from os.path import join
 
+import click
+from shapely.geometry import LineString
+
 
 shape_precision = 0.002
+supported_outputs = ['catgen', 'stellarium', ]
 
-files_list = []
-for (dirpath, dirnames, filenames) in walk('objects'):
-    files_list.extend(filenames)
-    break
+def catgen(dso, points_counter, idx, p):
+    """Format point entry compatible with Skychart's Catgen."""
+    if idx == 1:
+        # Starting point identified by 0
+        # also set the object name
+        return(f'{p[0]:<9.5f} {p[1]:<9.5f} 0 {dso.split(".")[0]:7s}\n')
+    elif idx < points_counter:
+        # Intermediate point identified by 2
+        return(f'{p[0]:<9.5f} {p[1]:<9.5f} 2\n')
+    else:
+        # Final point identified by 1
+        return(f'{p[0]:<9.5f} {p[1]:<9.5f} 1\n')
 
-output = open('outlines_catgen.dat', 'w')
+def stellarium(dso, points_counter, idx, p):
+    """Format point entry compatible with Stellarium."""
+    ra = float(p[0]) / 15
+    if idx == 1:
+        # Starting point identified by "start"
+        # also set the object name
+        return(f'{ra:08.5f} {p[1]:+09.5f} start  {dso.split(".")[0]:7s}\n')
+    elif idx < points_counter:
+        # Intermediate point identified by "vertex"
+        return(f'{ra:08.5f} {p[1]:+09.5f} vertex\n')
+    else:
+        # Final point identified by "end"
+        return(f'{ra:08.5f} {p[1]:+09.5f} end   \n')
 
-print(f'Processing {len(files_list)} object files...')
 
-for dso in files_list:
-    with open(join('objects', dso), 'r') as f:
-        reader = csv.DictReader(f, delimiter='\t')
-        points = []
-        for line in reader:
-            points.append((float(line["RAJ2000"]), float(line["DEJ2000"])))
-        outline = LineString(points).simplify(shape_precision)
-        for idx, p in enumerate(outline.coords, 1):
-            if idx == 1:
-                output.write(' '.join([f'{p[0]:.5f}',
-                                       f'{p[1]:.5f}',
-                                       f'{"0":6s}',
-                                       dso.split('.')[0], ]))
-            elif idx < len(outline.coords):
-                output.write(' '.join([f'{p[0]:.5f}',
-                                       f'{p[1]:.5f}',
-                                       f'{"2":6s}', ]))
-            else:
-                output.write(' '.join([f'{p[0]:.5f}',
-                                       f'{p[1]:.5f}',
-                                       f'{"1":6s}', ]))
-            output.write('\n')
+@click.option('--software', type=click.Choice(supported_outputs),
+              prompt=True, help='The software you want to make the catalog for.')
+@click.command()
+def create_cat(software):
+    """Generate the catalog file for the given software."""
+    files_list = []
+    for (dirpath, dirnames, filenames) in walk('objects'):
+        files_list.extend(filenames)
+        break
+
+    output = open(f'outlines_{software}.dat', 'w')
+
+    print(f'Processing {len(files_list)} object files...')
+
+    for dso in files_list:
+        with open(join('objects', dso), 'r') as f:
+            reader = csv.DictReader(f, delimiter='\t')
+            points = []
+            for line in reader:
+                points.append((float(line["RAJ2000"]), float(line["DEJ2000"])))
+            outline = LineString(points).simplify(shape_precision)
+            points_counter = len(outline.coords)
+            for idx, p in enumerate(outline.coords, 1):
+                output.write(eval(software)(dso, points_counter, idx, p))
+
+
+if __name__ == '__main__':
+    create_cat()
