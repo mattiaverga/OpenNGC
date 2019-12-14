@@ -89,13 +89,19 @@ def create_cat(software):
     for dso in files_list:
         with open(join('objects', dso), 'r') as f:
             reader = csv.DictReader(f, delimiter='\t')
-            points = []
+            points = [[], ]
+            shape_nbr = 0
             for line in reader:
-                points.append((float(line["RAJ2000"]), float(line["DEJ2000"])))
-            outline = LineString(points).simplify(shape_precision)
-            points_counter = len(outline.coords)
-            for idx, p in enumerate(outline.coords, 1):
-                output.write(eval(software)(dso, points_counter, idx, p))
+                points[shape_nbr].append((float(line["RAJ2000"]), float(line["DEJ2000"])))
+                if line["Cont_Flag"] == '*':
+                    points.append([])
+                    shape_nbr += 1
+            for shape in points:
+                if shape:
+                    outline = LineString(shape).simplify(shape_precision)
+                    points_counter = len(outline.coords)
+                    for idx, p in enumerate(outline.coords, 1):
+                        output.write(eval(software)(dso, points_counter, idx, p))
 
 
 if __name__ == '__main__':
