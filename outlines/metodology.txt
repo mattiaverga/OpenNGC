@@ -1,7 +1,7 @@
 These object outlines are generated using Aladin Sky Atlas from the Centre de Données astronomiques de Strasbourg and a small Python script which make use of shapely module to reduce the points.
 
 We start by using the "draw" function in Aladin Desktop to draw the contour of an object. We use the default DSS2 Color layer, usually playing with histogram and reversing the image to get a better idea of the object shape. There are no fixed settings for this, it's highly subjective to the user to find optimal settings.
-Then we export the plane in a subdirectory named 'objects' with an appropriate name in the form '[IC/NGC][dddd].txt'.
+Then we export the plane in a subdirectory named 'objects' with an appropriate name in the form '[IC/NGC][dddd].txt'. The object name is sometimes only indicative since the same shape file can include other objects which are not clearly detached from the starting object.
 
 Those object files have a lot of points due to the high pecision of the coordinates being saved, but we really don't need that amount of information, so we use the 'shape.py' script to simplify the shape of the object.
 Inside the script there's the 'shape_precision' variable, which by default is set to 0.002. Lowering that value will produce higher precision outlines, but with an increase of the size of the ouptut catalog.
