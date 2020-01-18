@@ -81,3 +81,6 @@ listed only in the addendum.
 ### PYTHON INTERFACE
 
 For a basic Python interface to OpenNGC data, see PyOngc project at https://github.com/mattiaverga/PyOngc.
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E41AH8L)
+<img src="http://img.shields.io/liberapay/patrons/mattia.svg?logo=liberapay">
