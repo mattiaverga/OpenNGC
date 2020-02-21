@@ -78,7 +78,7 @@ def stellarium(dso, points_counter, idx, p, level=None):
     if idx == 1:
         # Starting point identified by "start"
         # also set the object name
-        return(f'{ra:08.5f} {p[1]:+09.5f} start  {dso.split(".")[0]:7s}\n')
+        return(f'{ra:08.5f} {p[1]:+09.5f} start  {dso.split("_")[0]:7s}\n')
     elif idx < points_counter:
         # Intermediate point identified by "vertex"
         return(f'{ra:08.5f} {p[1]:+09.5f} vertex\n')
