@@ -51,12 +51,12 @@ Alcuni nomi comuni degli oggetti sono presi da sorgenti internet come Wikipedia.
 
  - Tutti gli oggetti: le coordinate sono ottenute dal NED; le magnitudini sono
    ottenute da SIMBAD, se non specificato altrimenti.
-   
+
  - Galassie (G | GGroup | GPair | Gtrpl): diametri, angolo di posizione, luminosità superficiale
    e classificazione sono importati da LEDA. Se i diametri non sono disponibili in LEDA allora
    sono presi da SIMBAD (solitamente riferiti alle misure 2MASS, quindi in infrarosso e non visuale;
    in questo caso è stata aggiunta una nota all'oggetto).
- 
+
  - Ammassi stellari (OCl | GCl | *Ass | Cl+N): dove disponibili, i diametri e l'angolo
    di posizione sono ottenuti dalle seguenti tabelle HEASARC: mwsc [central_radius];
    smcclustrs [major_diameter, minor_diameter, position_angle];
@@ -66,7 +66,7 @@ Alcuni nomi comuni degli oggetti sono presi da sorgenti internet come Wikipedia.
    dai campi opt_diameter, umag_cstar, bmag_cstar, vmag_cstar,
    name, pk_name, iras_name, alt_name_1, alt_name_2, alt_name_3, alt_name_4.
    B_Mag e V_Mag sono importati da LEDA, mentre J, H e K da Simbad.
-   
+
  - Nebulose (HII | Neb | EmN | RfN | SNR): dove disponibili, i diametri e l'angolo
    di posizione sono ottenuti dalla tabella HEASARC lbn, campi [large_dimension], [small dimension].
    Se la sorgente dei dati è diversa, allora è specificata nelle note dell'oggetto.
@@ -79,3 +79,14 @@ per gli astrofili, ma che non sono parte dei cataloghi NGC o IC.
 Nota che due oggetti Messier (M40 e M45) non hanno nessuna designazione NGC o IC e perciò sono
 presenti solo nell'addendum.
 
+### INTERFACCIA PYTHON
+
+Per accedere ai dati del database OpenNGC da Python potete usare PyOngc: https://github.com/mattiaverga/PyOngc.
+
+### INTERFACCIA TAP
+
+Una tabella TAP del database OpenNGC è disponibile su http://dc.g-vo.org/tap.
+
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E41AH8L)
+<img src="http://img.shields.io/liberapay/patrons/mattia.svg?logo=liberapay">
