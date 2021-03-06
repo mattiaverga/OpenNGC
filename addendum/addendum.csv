@@ -15,7 +15,7 @@ HCG092;GGroup;22:35:59.0;+33:57:30;Peg;4.40;;;;;;;;;;;;;;;;;IRAS 22337+3342;Step
 M040;**;12:22:16.1;+58:05:04;UMa;;;;;8.00;;;;;;;;;040;;;;WDS J12222+5805AB;;;VMag taken from HEASARC's messier table
 Mel022;OCl;03:47:28.6;+24:06:19;Tau;150.00;150.00;90;;1.20;;;;;;;;;045;;;;MWSC 0305;Pleiades;;Coordinates taken from Simbad, VMag taken from HEASARC's messier table
 Mel071;OCl;07:37:33.6;-12:03:18;Pup;14.40;;;7.44;7.10;;;;;;;;;;;;;MWSC 1287;;;Coordinates taken from Simbad.
-Mel072;OCl;07:28:38.8;-10:42:00;Pup;7.50;;;;10.10;;;;;;;;;;;;;;;;Coordinates taken from Simbad.
+Mel072;OCl;07:28:38.8;-10:42:00;Mon;7.50;;;;10.10;;;;;;;;;;;;;;;;Coordinates taken from Simbad.
 Mel101;OCl;10:42:12.0;-65:06:00;Car;8.40;;;8.50;8.00;;;;;;;;;;;;;MWSC 1840;;;Coordinates taken from Simbad.
 Mel105;OCl;11:19:42.0;-63:29:00;Car;5.40;;;9.05;8.50;;;;;;;;;;;;;MWSC 1933;;;Coordinates taken from Simbad.
 Mel111;OCl;12:25:06.0;+26:06:00;Com;253.50;;;;;;;;;;;;;;;;;;Coma Star Cluster;;Coordinates taken from Simbad, diameter taken from MWSC.
