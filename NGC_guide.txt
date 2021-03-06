@@ -30,6 +30,7 @@
 - Dec: Declination in J2000 Epoch (+/-DD:MM:SS.SS)
 
 - Const: Constellation where the object is located
+    Serpens is expressed as 'Se1' for Serpens Caput and 'Se2' for Serpens Caudi
 
 - MajAx: Major axis, expressed in arcmin
 
