@@ -7600,7 +7600,7 @@ NGC1889;G;05:22:35.30;-11:29:49.0;Lep;0.63;0.37;165;12.60;;;;;21.90;E;;;;;;;;MCG
 NGC1890;OCl;05:13:45.83;-72:04:40.7;Men;1.10;1.00;70;13.08;12.81;;;;;;;;;;;;;ESO 056-087;;In the Large Magellanic Cloud.;
 NGC1891;OCl;05:21:44.22;-35:47:21.5;Col;;;;;;;;;;;;;;;;;;ESO 362-020;;"Twenty stars, 19 arcmin by 14 arcmin; cluster?";
 NGC1892;G;05:17:09.05;-64:57:35.1;Dor;3.37;1.02;75;12.72;;10.27;9.74;9.65;23.21;Sc;;;;;;;;2MASX J05170905-6457354,ESO 085-061,ESO-LV 85-0610,IRAS 05169-6500,PGC 017042;;Extended HIPASS source;
-NGC1893;OCl;05:22:44.14;+33:24:43.3;Aur;6.00;;;7.90;7.50;;;;;;;;;;;0410;;MWSC 0516;;;
+NGC1893;Cl+N;05:22:44.14;+33:24:43.3;Aur;40.00;30.00;;7.90;7.50;;;;;;;;;;;0410;;LBN 807,MWSC 0516;;;NED considers NGC1893 and IC410 the same object. Here dimensions are taken from HEASARC lbn table, while magnitudes are referred to Simbad’s NGC1893 entry.
 NGC1894;OCl;05:15:51.27;-69:28:06.7;Dor;1.40;1.20;60;12.40;12.16;;;;;;;;;;;;;ESO 056-089;;In the Large Magellanic Cloud.;
 NGC1895;Neb;05:16:51.59;-67:19:46.5;Dor;1.40;1.30;40;;12.93;;;;;;;;;;;;;IRAS 05169-6722;;In the Large Magellanic Cloud.;
 NGC1896;OCl;05:25:34.68;+29:15:36.8;Aur;3.90;;;;;;;;;;;;;;;;;MWSC 0537;;;
