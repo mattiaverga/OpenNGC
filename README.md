@@ -42,7 +42,8 @@ OpenNGC has been built by merging data from:
    http://heasarc.gsfc.nasa.gov/
    We used several databases from HEASARC such as messier, mwsc, lbn, plnebulae, lmcextobj and smcclustrs.
 
-Where incongruences between catalogs was found we used NED as source.
+ - Harold Corwin's NGC/IC Positions and Notes
+   http://haroldcorwin.net/ngcic/index.html
 
 Some common names are taken from internet sources like Wikipedia.
 
@@ -85,7 +86,3 @@ For a basic Python interface to OpenNGC data, see PyOngc project at https://gith
 ### TAP INTERFACE
 
 A TAP-accessible database table of OpenNGC is available on http://dc.g-vo.org/tap.
-
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E41AH8L)
-<img src="http://img.shields.io/liberapay/patrons/mattia.svg?logo=liberapay">
