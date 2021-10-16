@@ -449,7 +449,7 @@ IC0432;RfN;05:40:55.98;-01:30:25.2;Ori;10.00;10.00;;;;;;;;;;;;;;;;LBN 946;;;
 IC0433;G;05:40:31.35;-11:39:56.1;Lep;1.42;1.12;138;;;10.93;10.19;9.85;;E;;;;;;;;2MASX J05403134-1139561,MCG -02-15-008,PGC 017580;;;
 IC0434;HII;05:41:00.88;-02:27:13.6;Ori;90.00;30.00;;11.00;;;;;;;;;;;;;;LBN 953;Flame Nebula,Orion B;The Horsehead Nebula is an absorption patch in this.;B-Mag taken from LEDA. 
 IC0435;RfN;05:43:00.57;-02:18:45.4;Ori;3.98;3.02;;;;;;;;;;;;;;;;BD -02 1350,HD 038087,HIP 026939;;;Dimensions taken from LEDA
-IC0436;G;05:53:40.08;+38:37:29.2;Aur;;;;;;;;;;;;;;;;;;;;;No data available in LEDA
+IC0436;Other;05:53:40.08;+38:37:29.2;Aur;;;;;;;;;;;;;;;;;;;;;NED lists this as of type G, but Corwin says it’s an asterism of at least six stars.
 IC0437;G;05:51:37.40;-12:33:53.9;Lep;0.97;0.46;7;15.28;;11.28;10.50;10.11;23.39;Sa;;;;;;;;2MASX J05513743-1233535,IRAS 05493-1234,LEDA 090030;;;
 IC0438;G;05:53:00.08;-17:52:33.9;Lep;2.80;1.82;63;12.75;;10.59;9.93;9.70;23.70;SABc;;;;;;;;2MASX J05530007-1752337,ESO 555-009,ESO-LV 555-0090,IRAS 05508-1753,MCG -03-15-025,PGC 018047,UGCA 115;;This pair is made up of IC 0438 and IC 2151.;
 IC0439;Other;05:56:39.51;+32:01:21.7;Aur;;;;;;;;;;;;;;;;;;;;"Nothing here; nominal position.";
