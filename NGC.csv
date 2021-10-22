@@ -5924,7 +5924,7 @@ NGC0291;G;00:53:29.92;-08:46:04.1;Cet;0.98;0.53;55;14.00;;11.86;11.06;10.59;23.2
 NGC0292;G;00:52:44.78;-72:49:43.0;Tuc;299.92;179.89;45;2.79;2.20;;;;23.42;SBm;;;;;;;;ESO 029-021,PGC 003085;Small Magellanic Cloud;;
 NGC0293;G;00:54:15.96;-07:14:07.7;Cet;1.12;0.63;15;14.00;;12.17;11.50;11.21;23.57;Sb;;;;;;;;2MASX J00541594-0714079,IRAS 00517-0730,MCG -01-03-030,PGC 003195;;;
 NGC0294;OCl;00:53:04.71;-73:22:49.3;Tuc;1.70;1.70;;12.67;12.24;;;;;;;;;;;;;ESO 029-022;;In the Small Magellanic Cloud.;
-NGC0295;G;00:59:32.28;+31:47:53.0;Psc;0.59;0.54;65;15.00;;12.93;12.43;12.16;22.57;;;;;;;;;2MASX J00593228+3147531,PGC 003555;;Nonexistent object. NGC 0296 mistakenly called NGC 0295 in MCG, CGCG, & UGC.;There is a lot of confusion about the identification of NGC0295 and NGC0296. Here we adopted Corwin’s identifications, which differs from both NED and Simbad, because it’s more updated.
+NGC0295;G;00:59:32.28;+31:47:53.0;Psc;0.59;0.54;65;15.00;;12.93;12.43;12.16;22.57;;;;;;;;;2MASX J00593228+3147531,PGC 003555;;Nonexistent object. NGC 0296 mistakenly called NGC 0295 in MCG, CGCG, & UGC.;There is a lot of confusion about the identification of NGC0295 and NGC0296. Here we adopted Corwin’s identifications, which differs from both NED and Simbad, because it’s more updated.
 NGC0296;G;00:55:07.51;+31:32:32.2;Psc;2.23;0.88;164;13.50;;10.23;9.52;9.14;22.92;Sb;;;;;;;;2MASX J00550752+3132322,IRAS 00523+3116,MCG +05-03-024,PGC 003260,UGC 00562;;Misidentified as NGC 0295 in MCG, CGCG, and UGC.;
 NGC0297;G;00:54:58.94;-07:20:58.8;Cet;0.35;0.29;101;16.88;;13.23;12.50;12.09;23.50;E;;;;;;;;2MASX J00545892-0720591,PGC 1020464;;;
 NGC0298;G;00:55:02.35;-07:19:59.1;Cet;1.47;0.49;92;14.70;;11.97;11.56;11.31;24.46;Sc;;;;;;;;2MASX J00550234-0719591,MCG -01-03-033,PGC 003250,SDSS J005502.34-071958.7;;;
@@ -6201,6 +6201,7 @@ NGC0550;G;01:26:42.55;+02:01:20.5;Cet;1.82;0.69;120;13.60;;10.25;9.49;9.20;23.20
 NGC0551;G;01:27:40.66;+37:10:58.5;And;1.49;0.59;137;13.50;;11.17;10.53;10.20;22.57;SBbc;;;;;;;;2MASX J01274066+3710584,IRAS 01247+3655,MCG +06-04-027,PGC 005450,UGC 01034;;;
 NGC0552;*;01:26:10.15;+33:24:21.1;Psc;;;;;;;;;;;;;;;;;;;;NGC identification is not certain.;
 NGC0553;G;01:26:12.60;+33:24:18.0;Psc;0.91;0.30;13;15.00;;12.12;11.58;11.33;23.66;S0;;;;;;;;2MASX J01261252+3324183,PGC 005333;;NGC identification is not certain.;
+NGC0554;GPair;01:27:09.60;-22:43:30.0;Cet;1.42;;;;;;;;;;;;;;;;;;;;Diameter of the group inferred by the author.
 NGC0554A;G;01:27:09.70;-22:43:28.8;Cet;1.42;1.04;170;15.00;;11.72;11.03;10.78;24.49;S0;;;;;0554;;;2MASX J01270968-2243289,PGC 005413;;;
 NGC0554B;G;01:27:09.56;-22:43:32.6;Cet;;;;14.76;;;;;24.49;S0;;;;;;;;;;;
 NGC0555;G;01:27:11.81;-22:45:43.8;Cet;0.74;0.69;15;15.19;;12.31;11.53;11.37;23.37;S0-a;;;;;;;;2MASX J01271185-2245439,ESO 476-012,ESO-LV 476-0120,MCG -04-04-014,PGC 005419;;;
