@@ -7625,7 +7625,7 @@ NGC1906;G;05:24:47.10;-15:56:35.9;Lep;1.03;0.74;154;14.11;;11.70;11.07;10.77;;Sc
 NGC1907;OCl;05:28:04.55;+35:19:32.4;Aur;5.40;;;8.87;8.20;;;;;;;;;;;;;MWSC 0552;;;
 NGC1908;Other;05:25:53.80;-02:31:44.0;Ori;;;;;;;;;;;;;;;;;;;;Nothing at this position.;
 NGC1909;RfN;05:04:55.44;-07:15:56.3;Eri;180.00;60.00;;;;;;;;;;;;;;2118;;LBN 959;the Witch Head Nebula;Identification as NGC 1909 is uncertain.;
-NGC1910;HII;05:18:43.07;-69:13:54.9;Dor;3.60;2.80;120;;9.65;;;;;;;;;;;;;ESO 056-099;;In the Large Magellanic Cloud.;
+NGC1910;Cl+N;05:18:43.07;-69:13:54.9;Dor;3.60;2.80;120;;9.65;;;;;;;;;;;;;ESO 056-099;;In the Large Magellanic Cloud.;NED lists this as HII region, Simbad and Corwin lists it as a star cluster.
 NGC1911;OCl;05:19:26.88;-66:41:03.3;Dor;0.60;0.60;;;;;;;;;;;;;;;;ESO 085-070;;;
 NGC1912;OCl;05:28:42.49;+35:51:17.7;Aur;9.60;;;6.69;6.40;;;;;;;;;038;;;;MWSC 0557;;;
 NGC1913;OCl;05:18:19.29;-69:32:11.3;Dor;1.30;1.10;150;11.37;11.14;;;;;;;;;;;;;ESO 056-097;;In the Large Magellanic Cloud.;
