@@ -12595,10 +12595,10 @@ NGC6544;GCl;18:07:20.00;-24:59:54.1;Sgr;6.00;;;11.36;9.90;6.24;5.54;5.37;;;;;;;;
 NGC6545;G;18:12:14.77;-63:46:34.1;Pav;1.11;0.97;151;14.19;;10.90;10.12;9.89;23.31;E;;;;;;;;2MASX J18121473-6346339,ESO 103-006,ESO-LV 103-0060,PGC 061551;;;
 NGC6546;OCl;18:07:22.55;-23:17:46.4;Sgr;6.90;;;8.65;8.00;;;;;;;;;;;;;MWSC 2812;;;
 NGC6547;G;18:05:10.02;+25:13:57.4;Her;1.63;0.58;134;14.30;;10.44;9.74;9.49;23.94;S0-a;;;;;;;;2MASX J18051001+2513575,MCG +04-43-001,PGC 061378,UGC 11110;;;
-NGC6548;G;18:05:59.24;+18:35:14.1;Her;2.65;2.37;155;13.10;;9.59;8.89;8.59;23.61;S0;;;;;6550;;;2MASX J18055923+1835139,MCG +03-46-013,PGC 061404,UGC 11115;;;NED lists NGC6548 the fainter galaxy of the pair, but they’re probably going to reconsider the identification.
-NGC6549;G;18:05:49.50;+18:32:16.9;Her;1.22;0.30;52;14.80;;11.26;10.47;10.07;22.93;Sb;;;;;;;;2MASX J18054951+1832167,IRAS 18036+1831,MCG +03-46-012,PGC 061399,UGC 11114;;;NED lists NGC6548 the fainter galaxy of the pair, but they’re probably going to reconsider the identification.
-NGC6550;Dup;18:05:59.24;+18:35:14.1;Her;;;;;;;;;;;;;;;6548;;;;;;NED lists NGC6550 the brightest galaxy of the pair, but they’re probably going to reconsider the identification.
-NGC6551;Other;18:08:59.66;-29:33:27.6;Sgr;;;;;;;;;;;;;;;;;;;;Nothing in this position.  Is NGC 6551 = NGC 6522?;
+NGC6548;G;18:05:59.24;+18:35:14.1;Her;2.65;2.37;155;13.10;;9.59;8.89;8.59;23.61;S0;;;;;;;;2MASX J18055923+1835139,MCG +03-46-013,PGC 061404,UGC 11115;;;Identification taken from Corwin’s catalog.
+NGC6549;G;18:05:49.50;+18:32:16.9;Her;1.22;0.30;52;14.80;;11.26;10.47;10.07;22.93;Sb;;;;;6550;;;2MASX J18054951+1832167,IRAS 18036+1831,MCG +03-46-012,PGC 061399,UGC 11114;;;Identification taken from Corwin’s catalog.
+NGC6550;Dup;18:05:49.50;+18:32:16.9;Her;;;;;;;;;;;;;;;6549;;;;;;Identification taken from Corwin’s catalog.
+NGC6551;Other;18:08:59.66;-29:33:27.6;Sgr;;;;;;;;;;;;;;;;;;;;Nothing in this position.  Is NGC 6551 = NGC 6522?;Corwin thinks this may be NGC6528.
 NGC6552;G;18:00:07.23;+66:36:54.4;Dra;1.06;0.73;103;14.60;;11.44;10.73;10.32;23.16;SBab;;;;;;;;2MASX J18000730+6636543,IRAS 18001+6638,MCG +11-22-018,PGC 061252,UGC 11096;;;
 NGC6553;GCl;18:09:17.48;-25:54:28.3;Sgr;5.40;;;9.08;;;;;;;;;;;;;;MWSC 2824;;;
 NGC6554;OCl;18:09:23.98;-18:22:43.3;Sgr;8.70;;;;;;;;;;;;;;;;;MWSC 2821;;;
