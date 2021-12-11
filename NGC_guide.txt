@@ -52,6 +52,16 @@
 
 - Hubble (only Galaxies): Morphological type (for galaxies)
 
+- Pax: Parallax, expressed in milliarcseconds
+
+- Pm-RA: Proper motion in RA, expressed in milliarcseconds/year
+
+- Pm-Dec: Proper motion in Dec, expressed in milliarcseconds/year
+
+- RadVel: Radial velocity (heliocentric), expressed in km/s
+
+- Redshift: Redshift (heliocentric)
+
 - Cstar U-Mag (only Planetary Nebulae): Apparent magnitude of central star in U filter
 
 - Cstar B-Mag (only Planetary Nebulae): Apparent magnitude of central star in B filter

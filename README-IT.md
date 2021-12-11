@@ -50,8 +50,10 @@ Alcuni nomi comuni degli oggetti sono presi da sorgenti internet come Wikipedia.
 
 #### NOTE SUI DATI
 
- - Tutti gli oggetti: le coordinate sono ottenute dal NED; le magnitudini sono
-   ottenute da SIMBAD, se non specificato altrimenti.
+ - Tutti gli oggetti: le coordinate sono ottenute dal NED, se non specificato altrimenti;
+   le magnitudini sono ottenute da SIMBAD, se non specificato altrimenti; la parallasse,
+   i dati sul moto proprio, la velocità radiale e il redshift sono riferite al valore
+   principale riportato da SIMBAD.
 
  - Galassie (G | GGroup | GPair | Gtrpl): diametri, angolo di posizione, luminosità superficiale
    e classificazione sono importati da LEDA. Se i diametri non sono disponibili in LEDA allora
