@@ -49,8 +49,9 @@ Some common names are taken from internet sources like Wikipedia.
 
 #### NOTES ON OBJECT DATA
 
- - All object types: coordinates are taken from NED; magnitudes are taken from SIMBAD if not
-   specified otherwise.
+ - All object types: coordinates are taken from NED, if not specified otherwise;
+   magnitudes are taken from SIMBAD if not specified otherwise; parallax, proper motions,
+   radial velocity and redshift are referred to the main value reported from SIMBAD.
 
  - Galaxies (G | GGroup | GPair | Gtrpl): data about major axis, minor axis, position angle,
    surface brightness and Hubble classification is taken from LEDA; if major axis or minor axis data
