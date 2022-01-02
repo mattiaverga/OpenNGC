@@ -7,7 +7,7 @@ Credits: Mattia Verga
 [![DOI: 10.21938/y.1ejWUD_MQ6b_eDFoVbbw](https://img.shields.io/badge/DOI-10.21938%2Fy.1ejWUD__MQ6b__eDFoVbbw-blue.svg)](http://dc.zah.uni-heidelberg.de/voidoi/q/lp/custom/10.21938/y.1ejWUD_MQ6b_eDFoVbbw)
 
 
-### PRESENTATION
+### INTRODUCTION
 
 OpenNGC is a database containing positions and main data of
 NGC (New General Catalogue) and IC (Index Catalogue) objects.
@@ -49,9 +49,15 @@ Some common names are taken from internet sources like Wikipedia.
 
 #### NOTES ON OBJECT DATA
 
- - All object types: coordinates are taken from NED, if not specified otherwise;
-   magnitudes are taken from SIMBAD if not specified otherwise; parallax, proper motions,
-   radial velocity and redshift are referred to the main value reported from SIMBAD.
+ - Coordinates are usually taken from NED, if not specified otherwise; some multiple objects,
+   like multiple galaxies, are also listed following NED schema, thus the NED suffix.
+
+ - B-Mag and V-Mag have different sources: for galaxies they're usually originated from LEDA
+   if available, otherwise are from SIMBAD and a note is added. J, H and K magnitudes are
+   always from SIMBAD.
+
+ - Parallax, proper motions, radial velocity and redshift are referred to the main value
+   reported from SIMBAD.
 
  - Galaxies (G | GGroup | GPair | Gtrpl): data about major axis, minor axis, position angle,
    surface brightness and Hubble classification is taken from LEDA; if major axis or minor axis data

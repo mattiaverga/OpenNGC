@@ -7,7 +7,7 @@ Credits: Mattia Verga
 [![DOI: 10.21938/y.1ejWUD_MQ6b_eDFoVbbw](https://img.shields.io/badge/DOI-10.21938%2Fy.1ejWUD__MQ6b__eDFoVbbw-blue.svg)](http://dc.zah.uni-heidelberg.de/voidoi/q/lp/custom/10.21938/y.1ejWUD_MQ6b_eDFoVbbw)
 
 
-### PRESENTAZIONE
+### INTRODUZIONE
 
 OpenNGC è un database contenente le posizioni e i principali dati degli
 oggetti che compongono i cataloghi NGC (New General Catalogue) e
@@ -50,10 +50,15 @@ Alcuni nomi comuni degli oggetti sono presi da sorgenti internet come Wikipedia.
 
 #### NOTE SUI DATI
 
- - Tutti gli oggetti: le coordinate sono ottenute dal NED, se non specificato altrimenti;
-   le magnitudini sono ottenute da SIMBAD, se non specificato altrimenti; la parallasse,
-   i dati sul moto proprio, la velocità radiale e il redshift sono riferite al valore
-   principale riportato da SIMBAD.
+ - Le coordinate sono originate da NED, se non specificato altrimenti nelle note; alcuni oggetti multipli,
+   come alcune galassie interagenti, sono indicate secondo lo schema NED, da cui il relativo suffisso.
+
+ - B-Mag e V-Mag hanno differenti origini: per le galassie i valori sono solitamente presi da LEDA,
+   altrimenti sono presi da SIMBAD e una nota viene aggiunta all'ggetto. Le magnitudini J, H e K sono
+   sempre originate da SIMBAD.
+
+ - I dati di parallasse, moto proprio, velocità radiale e redshift sono riferiti al valore principale
+   ripottato da SIMBAD.
 
  - Galassie (G | GGroup | GPair | Gtrpl): diametri, angolo di posizione, luminosità superficiale
    e classificazione sono importati da LEDA. Se i diametri non sono disponibili in LEDA allora
