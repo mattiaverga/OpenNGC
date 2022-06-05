@@ -83,3 +83,17 @@
 - NED Notes: notes about object exported from NED
 
 - OpenNGC Notes: notes about the object data from OpenNGC catalog
+
+- Sources: sources of data
+    1: NASA Extragalactic Database
+    2: SIMBAD Astronomical Database
+    3: HyperLeda
+    4: Harold Corwin's NGC/IC Positions and Notes
+    5: HEASARC mwsc table
+    6: HEASARC smcclustrs table
+    7: HEASARC lmcextobj table
+    8: HEASARC plnebulae table
+    9: HEASARC lbn table
+    10: HEASARC messier table
+    11: HEASARC lyngaclust table
+    99: OpenNGC revised data

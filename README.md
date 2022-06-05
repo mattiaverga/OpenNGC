@@ -49,12 +49,13 @@ Some common names are taken from internet sources like Wikipedia.
 
 #### NOTES ON OBJECT DATA
 
- - Coordinates are usually taken from NED, if not specified otherwise; some multiple objects,
+See the `sources` column for a detailed description of where each object data has been taken from.
+
+ - Coordinates are usually taken from NED; some multiple objects,
    like multiple galaxies, are also listed following NED schema, thus the NED suffix.
 
  - B-Mag and V-Mag have different sources: for galaxies they're usually originated from LEDA
-   if available, otherwise are from SIMBAD and a note is added. J, H and K magnitudes are
-   always from SIMBAD.
+   if available, otherwise are from SIMBAD. J, H and K magnitudes are always from SIMBAD.
 
  - Parallax, proper motions, radial velocity and redshift are referred to the main value
    reported from SIMBAD.
@@ -62,7 +63,7 @@ Some common names are taken from internet sources like Wikipedia.
  - Galaxies (G | GGroup | GPair | Gtrpl): data about major axis, minor axis, position angle,
    surface brightness and Hubble classification is taken from LEDA; if major axis or minor axis data
    is not available from LEDA, then it's taken from SIMBAD (usually from 2MASS measures,
-   so they're referred to IR, not visual; in this case a note is added to the object).
+   so they're referred to IR, not visual).
 
  - Star clusters (OCl | GCl | *Ass | Cl+N): where available, diameters and
    position angle are taken from the following HEASARC tables: mwsc [central_radius];
@@ -72,11 +73,9 @@ Some common names are taken from internet sources like Wikipedia.
  - Planetary Nebulae (PN): data is imported from HEASARC plnebulae table,
    fields used are opt_diameter, umag_cstar, bmag_cstar, vmag_cstar,
    name, pk_name, iras_name, alt_name_1, alt_name_2, alt_name_3, alt_name_4.
-   B_Mag and V_Mag are imported from LEDA, while J, H, K are from Simbad.
 
  - Nebulae (HII | Neb | EmN | RfN | SNR): where available, major and minor axis are taken
-   from HEASARC lbn table [large_dimension], [small dimension]. If data source is different
-   then is specified in object notes.
+   from HEASARC lbn table [large_dimension], [small dimension].
 
 #### THE ADDENDUM
 
