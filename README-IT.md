@@ -50,20 +50,21 @@ Alcuni nomi comuni degli oggetti sono presi da sorgenti internet come Wikipedia.
 
 #### NOTE SUI DATI
 
- - Le coordinate sono originate da NED, se non specificato altrimenti nelle note; alcuni oggetti multipli,
-   come alcune galassie interagenti, sono indicate secondo lo schema NED, da cui il relativo suffisso.
+Vedi la colonna `sources` per una descrizione dettagliata sull'origine dei dati di ciascun oggetto.
+
+ - Le coordinate sono originate da NED; alcuni oggetti multipli, come alcune galassie interagenti,
+ - sono indicate secondo lo schema NED, da cui il relativo suffisso.
 
  - B-Mag e V-Mag hanno differenti origini: per le galassie i valori sono solitamente presi da LEDA,
    altrimenti sono presi da SIMBAD e una nota viene aggiunta all'ggetto. Le magnitudini J, H e K sono
    sempre originate da SIMBAD.
 
  - I dati di parallasse, moto proprio, velocità radiale e redshift sono riferiti al valore principale
-   ripottato da SIMBAD.
+   riportato da SIMBAD.
 
  - Galassie (G | GGroup | GPair | Gtrpl): diametri, angolo di posizione, luminosità superficiale
    e classificazione sono importati da LEDA. Se i diametri non sono disponibili in LEDA allora
-   sono presi da SIMBAD (solitamente riferiti alle misure 2MASS, quindi in infrarosso e non visuale;
-   in questo caso è stata aggiunta una nota all'oggetto).
+   sono presi da SIMBAD (solitamente riferiti alle misure 2MASS, quindi in infrarosso e non visuale).
 
  - Ammassi stellari (OCl | GCl | *Ass | Cl+N): dove disponibili, i diametri e l'angolo
    di posizione sono ottenuti dalle seguenti tabelle HEASARC: mwsc [central_radius];
@@ -73,11 +74,9 @@ Alcuni nomi comuni degli oggetti sono presi da sorgenti internet come Wikipedia.
  - Nebulose planetarie (PN): i dati sono stati importati dalla tabella HEASARC plnebulae
    dai campi opt_diameter, umag_cstar, bmag_cstar, vmag_cstar,
    name, pk_name, iras_name, alt_name_1, alt_name_2, alt_name_3, alt_name_4.
-   B_Mag e V_Mag sono importati da LEDA, mentre J, H e K da Simbad.
 
  - Nebulose (HII | Neb | EmN | RfN | SNR): dove disponibili, i diametri e l'angolo
    di posizione sono ottenuti dalla tabella HEASARC lbn, campi [large_dimension], [small dimension].
-   Se la sorgente dei dati è diversa, allora è specificata nelle note dell'oggetto.
 
 #### ADDEDUM
 
