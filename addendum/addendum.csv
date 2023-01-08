@@ -2,7 +2,7 @@ Name;Type;RA;Dec;Const;MajAx;MinAx;PosAng;B-Mag;V-Mag;J-Mag;H-Mag;K-Mag;SurfBr;H
 B033;DrkN;05:40:59.0;-02:27:30;Ori;6.00;4.00;90;;;;;;;;;;;;;;;;;;;;;Horsehead Nebula;;;Type:2|RA:2|Dec:2|Const:99|MajAx:2|MinAx:2|PosAng:2
 C009;HII;22:57:54.0;+62:31:06;Cep;50.00;30.00;;;;;;;;;;;;;;;;;;;;;LBN 529,SH 2-155;Cave Nebula;;;Type:2|RA:2|Dec:2|Const:99|MajAx:9|MinAx:9
 C014;*Ass;02:20:42.0;+57:08:15;Per;50.00;50.00;;;;;;;;;;;;;;;;;;;;;;Double Cluster, h & chi Persei;;;Type:99|RA:99|Dec:99|Const:99|MajAx:99|MinAx:99
-C041;OCl;04:26:54.0;+15:52:00;Tau;329.00;;;;;;;;;;;104.920;-28.000;40;0.000133;;;;;;;;Mel 025;Hyades;;;Type:2|RA:2|Dec:2|Const:99|MajAx:11|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
+C041;OCl;04:26:54.0;+15:52:00;Tau;329.00;;;;;;;;;;;104.920;-28.000;40;0.000133;;;;;;;;Cl 050,Mel 025;Hyades;;;Type:2|RA:2|Dec:2|Const:99|MajAx:11|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
 C099;DrkN;12:31:19.0;-63:44:36;Cru;;;;;;;;;;;;;;;;;;;;;;;;Coalsack Nebula;;;Type:2|RA:2|Dec:2|Const:99
 Cl399;*Ass;19:25:24.0;+20:11:00;Vul;70.00;;;3.93;3.60;;;;;;;;;;;;;;;;;;;Brocchi's Cluster, Al Sufi's Cluster, Coathanger Asterism;;;Type:2|RA:2|Dec:2|Const:99|MajAx:99|B-Mag:2|V-Mag:2
 ESO056-115;G;05:23:34.5;-69:45:22;Dor;646.00;550.00;170;0.80;0.29;;;;23.45;SBm;;1.910;0.229;262;0.000875;;;;;;;;ESO-LV 0561150,IRAS 05240-6948,PGC 017223;Large Magellanic Cloud,Nubecula Major;;;Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|SurfBr:3|Hubble:3|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
