@@ -79,7 +79,7 @@ See the `sources` column for a detailed description of where each object data ha
 
 #### THE ADDENDUM
 
-The 'addendum' folder contains a separate catalog file with notably objects that are not
+The 'addendum.csv' file contains a separate catalog file with notably objects that are not
 part of the NGC or IC catalog. These objects may be of some interest to amateur astronomers.
 
 Note that two Messier objects (M40 and M45) haven't got any NGC or IC designation, so  they're
