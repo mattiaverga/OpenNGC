@@ -77,13 +77,20 @@ See the `sources` column for a detailed description of where each object data ha
  - Nebulae (HII | Neb | EmN | RfN | SNR): where available, major and minor axis are taken
    from HEASARC lbn table [large_dimension], [small dimension].
 
-#### THE ADDENDUM
+### THE ADDENDUM
 
-The 'addendum.csv' file contains a separate catalog file with notably objects that are not
+The `addendum.csv` file contains a separate catalog file with notably objects that are not
 part of the NGC or IC catalog. These objects may be of some interest to amateur astronomers.
 
 Note that two Messier objects (M40 and M45) haven't got any NGC or IC designation, so  they're
 listed only in the addendum.
+
+### NEBULAE OUTLINES
+
+In the `outlines` directory outlines for the most prominent nebulae are provided. You can find more
+information about this data in the `metodology.txt` file. A simple Python script `shape.py` provides
+an interface to build a catalog file from the raw data in the `objects` subdirectory. Currently
+the script supports creating catalogs for Skychart and Stellarium.
 
 ### PYTHON INTERFACE
 

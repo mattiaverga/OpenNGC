@@ -78,13 +78,21 @@ Vedi la colonna `sources` per una descrizione dettagliata sull'origine dei dati 
  - Nebulose (HII | Neb | EmN | RfN | SNR): dove disponibili, i diametri e l'angolo
    di posizione sono ottenuti dalla tabella HEASARC lbn, campi [large_dimension], [small dimension].
 
-#### ADDEDUM
+### ADDEDUM
 
 Il file 'addendum.csv' contiene un file di catalogo separato che lista una serie di oggetti interessanti
 per gli astrofili, ma che non sono parte dei cataloghi NGC o IC.
 
 Nota che due oggetti Messier (M40 e M45) non hanno nessuna designazione NGC o IC e perciò sono
 presenti solo nell'addendum.
+
+### LINEE DELLE NEBULOSE
+
+Nella cartella `outlines` sono forniti file di dati che descrivono i contorni delle maggiori nebulosità.
+Maggiori informazioni su come sono stati ottenuti questi dati sono fornite nel file `metodology.txt`
+(in inglese). Un semplice script Python `shape.py` consente di trasformare i dati grezzi nella
+sottocartella `objects` in cataloghi compatibili con diversi programmi astronomici. Attualmente
+è possibile generare cataloghi adatti a essere importati in Skychart e Stellarium.
 
 ### INTERFACCIA PYTHON
 
