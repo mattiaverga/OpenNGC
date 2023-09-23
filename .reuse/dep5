@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: OpenNGC
+Upstream-Contact: Mattia Verga <mattia.verga@tiscali.it>
+Source: https://github.com/mattiaverga/OpenNGC
+
+Files: *
+Copyright: 2023 Mattia Verga <mattia.verga@tiscali.it>
+License: CC-BY-SA-4.0
