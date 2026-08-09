@@ -20,3 +20,4 @@ values must be formatted as following:
 - Redshift: one leading zero and six decimals with negative sign ([-]0.000000)
 - Cstar magnitudes: one leading zero and two decimals with negative sign ([-]0.00 or 1.00)
 
+Line endings in Unix format.

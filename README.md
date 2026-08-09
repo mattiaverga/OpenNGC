@@ -77,6 +77,21 @@ See the `sources` column for a detailed description of where each object data ha
  - Nebulae (HII | Neb | EmN | RfN | SNR): where available, major and minor axis are taken
    from HEASARC lbn table [large_dimension], [small dimension].
 
+Since prefixes used in OpenNGC may differ from those used in Simbad, here it is a quick conversion
+table between OpenNGC and Simbad for those which differ:
+
+ - B | Barnard
+
+ - C | Caldwell
+
+ - Cl | Collinder
+
+ - HCG | HCG (Hickson Compact Group)
+
+ - Leda or PGC | PGC
+
+ - Mel | Melotte
+
 ### THE ADDENDUM
 
 The `addendum.csv` file contains a separate catalog file with notably objects that are not
