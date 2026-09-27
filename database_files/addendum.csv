@@ -1,8 +1,8 @@
 Name;Type;RA;Dec;Const;MajAx;MinAx;PosAng;B-Mag;V-Mag;J-Mag;H-Mag;K-Mag;SurfBr;Hubble;Pax;Pm-RA;Pm-Dec;RadVel;Redshift;Cstar U-Mag;Cstar B-Mag;Cstar V-Mag;M;NGC;IC;Cstar Names;Identifiers;Common names;NED notes;OpenNGC notes;Sources
 B033;DrkN;05:40:59.0;-02:27:30;Ori;6.00;4.00;90;;;;;;;;;;;;;;;;;;;;;Horsehead Nebula;;;Type:2|RA:2|Dec:2|Const:99|MajAx:2|MinAx:2|PosAng:2
-C009;HII;22:57:54.0;+62:31:06;Cep;50.00;30.00;;;;;;;;;;;;;;;;;;;;;LBN 529,SH 2-155;Cave Nebula;;;Type:2|RA:2|Dec:2|Const:99|MajAx:9|MinAx:9
+C009;HII;22:57:54.0;+62:31:06;Cep;50.00;30.00;90;;;;;;;;;;;;;;;;;;;;LBN 529,SH 2-155;Cave Nebula;;;Type:2|RA:2|Dec:2|Const:99|MajAx:9|MinAx:9|PosAng:2
 C014;*Ass;02:20:42.0;+57:08:15;Per;50.00;50.00;;;;;;;;;;;;;;;;;;;;;;Double Cluster,h & chi Persei;;;Type:99|RA:99|Dec:99|Const:99|MajAx:99|MinAx:99
-C041;OCl;04:26:54.0;+15:52:00;Tau;329.00;;;;;;;;;;;104.920;-28.000;40;0.000133;;;;;;;;Cl 050,Mel 025;Hyades;;;Type:2|RA:2|Dec:2|Const:99|MajAx:11|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
+C041;OCl;04:26:54.0;+15:52:00;Tau;329.00;;;;;;;;;;21.0520;104.920;-28.000;38;0.000127;;;;;;;;Cl 050,Mel 025;Hyades;;;Type:2|RA:2|Dec:2|Const:99|MajAx:11|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
 C099;DrkN;12:31:19.0;-63:44:36;Cru;;;;;;;;;;;;;;;;;;;;;;;;Coalsack Nebula;;;Type:2|RA:2|Dec:2|Const:99
 Cl399;*Ass;19:25:24.0;+20:11:00;Vul;70.00;;;3.93;3.60;;;;;;;;;;;;;;;;;;;Brocchi's Cluster,Al Sufi's Cluster,Coathanger Asterism;;;Type:2|RA:2|Dec:2|Const:99|MajAx:99|B-Mag:2|V-Mag:2
 ESO056-115;G;05:23:34.5;-69:45:22;Dor;646.00;550.00;170;0.80;0.29;;;;23.45;SBm;;1.910;0.229;262;0.000875;;;;;;;;ESO-LV 0561150,IRAS 05240-6948,PGC 017223;Large Magellanic Cloud,Nubecula Major;;;Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|SurfBr:3|Hubble:3|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
@@ -38,19 +38,19 @@ ESO494-026;G;08:06:11.09;-27:31:42.3;Pup;4.07;2.69;146;12.45;11.51;8.91;8.21;7.8
 ESO495-021;G;08:36:15.13;-26:24:33.8;Pyx;1.95;1.41;136;12.46;11.83;9.88;9.27;9.00;22.66;E-S0;;;;880;0.002941;;;;;;;;2MASX J08361519-2624336,ESO-LV 4950210,IRAS 08341-2614,MCG-04-21-005,PGC 024171;;;;Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2
 ESO507-025;G;12:51:31.84;-26:27:07.5;Hya;2.63;2.14;98;12.61;11.60;9.27;8.59;8.31;23.45;E-S0;;;;3237;0.010855;;;;;;;;2MASX J12513184-2627077,ESO-LV 5070250,MCG-04-30-029,PGC 043557;;Extended HIPASS source.;;Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2
 ESO556-015;G;06:21:05.56;-20:02:54.3;CMa;2.57;2.19;130;12.62;11.83;9.86;9.18;8.84;23.31;SBab;;;;1980;0.006625;;;;;;;;2MASX J06210556-2002543,ESO-LV 5560150,IRAS 06189-2001,MCG-03-17-002,PGC 018858,UGCA 128;;Extended HIPASS source.;;Type:1|RA:1|Dec:1|Const:99|MajAx:3|MinAx:3|PosAng:3|B-Mag:3|V-Mag:3|J-Mag:2|H-Mag:2|K-Mag:2|SurfBr:3|Hubble:3|RadVel:2|Redshift:2
-H05;OCl;12:27:16.0;-60:46:42;Cru;6.00;;;7.39;7.10;;;;;;0.7640;-7.051;-0.288;-14;-0.000048;;;;;;;;Cl 258,MWSC 2033;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
+H05;OCl;12:27:16.0;-60:46:42;Cru;6.00;;;7.39;7.10;;;;;;0.7640;-7.051;-0.288;-28;-0.000094;;;;;;;;Cl 258,MWSC 2033;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
 H13;OCl;17:03:51.0;-48:05:00;Ara;4.50;;;;;;;;;;0.8070;-2.766;-7.190;-4;-0.000014;;;;;;;;MWSC 2523;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
-H20;OCl;19:53:06.0;+18:20:00;Sge;5.10;;;8.40;7.70;;;;;;0.4610;-1.732;-4.447;6;0.000021;;;;;;;;Cl 408,MWSC 3198;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
+H20;OCl;19:53:06.0;+18:20:00;Sge;5.10;;;8.40;7.70;;;;;;0.4610;-1.732;-4.447;11;0.000037;;;;;;;;Cl 408,MWSC 3198;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
 H21;OCl;23:54:13.2;+61:44:24;Cas;1.80;;;;9.00;;;;;;;0.050;-3.470;;;;;;;;;;MWSC 3774;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|V-Mag:2|Pm-RA:2|Pm-Dec:2
 HCG079;GGroup;15:59:11.9;+20:45:31;Se1;2.80;;;;;;;;;;;;;4256;0.014300;;;;;;;;IRAS 15570+2053;Seyfert's Sextet;;;Type:1|RA:1|Dec:1|Const:99|MajAx:99|RadVel:2|Redshift:2
 HCG092;GGroup;22:35:59.0;+33:57:30;Peg;4.40;;;;;;;;;;;;;6376;0.021500;;;;;;;;IRAS 22337+3342;Stephan's Quintet;Contains the GPair NGC 7318.;;Type:1|RA:1|Dec:1|Const:99|MajAx:99|RadVel:2|Redshift:2
 M040;**;12:22:16.1;+58:05:04;UMa;;;;;8.00;;;;;;;;;;;;;;040;;;;WDS J12222+5805AB;;;;Type:1|RA:1|Dec:1|Const:99|V-Mag:10
 M102;Dup;14:03:12.54;+54:20:56.2;UMa;;;;;;;;;;;;;;;;;;;101;;;;;;;Identification is controversial, here we take NED assumption.;Type:1|RA:1|Dec:1|Const:99
-Mel022;OCl;03:47:28.6;+24:06:19;Tau;150.00;150.00;90;;1.20;;;;;;7.3640;19.997;-45.548;7;0.000022;;;;045;;;;MWSC 0305;Pleiades;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|V-Mag:10|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
+Mel022;OCl;03:47:28.6;+24:06:19;Tau;150.00;150.00;90;;1.20;;;;;;7.3640;19.997;-45.548;6;0.000020;;;;045;;;;MWSC 0305;Pleiades;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|V-Mag:10|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
 Mel071;OCl;07:37:33.6;-12:03:18;Pup;14.40;;;7.44;7.10;;;;;;0.4340;-2.446;4.210;50;0.000167;;;;;;;;MWSC 1287;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
-Mel072;OCl;07:28:38.8;-10:42:00;Mon;7.50;;;;10.10;;;;;;0.3690;-4.159;3.680;72;0.000239;;;;;;;;MWSC 1293;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
-Mel101;OCl;10:42:12.0;-65:06:00;Car;8.40;;;8.50;8.00;;;;;;0.4390;-6.307;3.483;20;0.000068;;;;;;;;MWSC 1840;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
-Mel105;OCl;11:19:42.0;-63:29:00;Car;5.40;;;9.05;8.50;;;;;;0.4070;-6.771;2.133;1;0.000003;;;;;;;;MWSC 1933;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
+Mel072;OCl;07:38:28.3;-10:41:53;Pup;7.50;;;;;;;;;;0.3690;-4.159;3.680;72;0.000239;;;;;;;;MWSC 1293;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
+Mel101;OCl;10:42:12.0;-65:06:00;Car;8.40;;;8.50;8.00;;;;;;0.4390;-6.307;3.483;11;0.000036;;;;;;;;MWSC 1840;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
+Mel105;OCl;11:19:42.0;-63:29:00;Car;5.40;;;9.05;8.50;;;;;;0.4070;-6.771;2.133;1;0.000005;;;;;;;;MWSC 1933;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|B-Mag:2|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
 Mel111;OCl;12:25:06.0;+26:06:00;Com;253.50;;;;;;;;;;11.6400;-12.111;-8.996;0;-0.000002;;;;;;;;;Coma Star Cluster;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
 MWSC3156;GCl;19:41:44.41;-33:59:58.1;Sgr;3.90;;;;11.54;;;;;;0.0500;-2.440;-1.550;148;0.000494;;;;;;;;;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2
 MWSC3171;GCl;19:45:14.40;-08:00:26.0;Aql;5.40;;;;7.54;;;;;;0.1090;-1.766;-4.971;-68;-0.000226;;;;;;;;;;;;Type:2|RA:2|Dec:2|Const:99|MajAx:5|V-Mag:2|Pax:2|Pm-RA:2|Pm-Dec:2|RadVel:2|Redshift:2

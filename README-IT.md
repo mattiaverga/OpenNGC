@@ -78,6 +78,21 @@ Vedi la colonna `sources` per una descrizione dettagliata sull'origine dei dati 
  - Nebulose (HII | Neb | EmN | RfN | SNR): dove disponibili, i diametri e l'angolo
    di posizione sono ottenuti dalla tabella HEASARC lbn, campi [large_dimension], [small dimension].
 
+Siccome alcuni prefissi di catalogo usati in OpenNGC sono diversi da quelli usati in Simbad, riporto
+di seguito una tabella con la mappatura per quelli che possono risultare ambigui:
+
+ - B | Barnard
+
+ - C | Caldwell
+
+ - Cl | Collinder
+
+ - HCG | HCG (Hickson Compact Group)
+
+ - Leda or PGC | PGC
+
+ - Mel | Melotte
+
 ### ADDEDUM
 
 Il file 'addendum.csv' contiene un file di catalogo separato che lista una serie di oggetti interessanti
